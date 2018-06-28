@@ -1,0 +1,17 @@
+[RESOURCES]
+Buyer 1 wf
+Buyer 2 wf
+Buyer kb
+[VARIABLES]
+Purchase order issued #waterfall.NumberIn
+Duplicate.NumberOut Orig
+Material Request #waterfall.NumberOut
+Purchase request.NumberOut
+Material Request #kanban.NumberIn
+Finished.NumberOut
+Material Request #waterfall.NumberIn
+Purchase order issued #kanban.NumberIn
+Material Request #kanban.NumberOut
+Duplicate.NumberOut Dup
+Purchase order issued #waterfall.NumberOut
+Purchase order issued #kanban.NumberOut

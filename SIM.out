@@ -1,0 +1,2157 @@
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 1 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.0893     .01538     1.4449     2.7309        488    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        488    
+posiciones.WaitTime                         4.0559     (Corr)     .00000     18.902        488    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        488    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        488    
+posiciones.TotalTime                        6.1453     (Corr)     1.5940     20.728        488    
+Machining KANBAN.Queue.WaitingTime          1.9332     (Insuf)    .00000     8.6864        248    
+Surface Treatment _cascade_.Queue.WaitingT  2.5954     (Insuf)    .00000     13.362        251    
+Machining _cascade_.Queue.WaitingTime       1.9261     (Insuf)    .00000     7.2046        243    
+Surface treatment KANBAN.Queue.WaitingTime  1.7592     (Insuf)    .00000     8.4490        251    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              10.403     (Corr)     .00000     37.000     22.000    
+Comprador 1.NumberBusy                      .83799     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .83799     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .88950     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .88950     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.7247     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .86239     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.6221     (Insuf)    .00000     10.000     3.0000    
+Surface Treatment _cascade_.Queue.NumberIn  2.1901     (Corr)     .00000     14.000     4.0000    
+Machining _cascade_.Queue.NumberInQueue     1.6487     (Corr)     .00000     8.0000     7.0000    
+Surface treatment KANBAN.Queue.NumberInQue  1.4905     (Corr)     .00000     10.000     4.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    246  Infinite
+Count _cascade_                                 242  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         510.00    
+posiciones.NumberOut                        488.00    
+Comprador 1.NumberSeized                    251.00    
+Comprador 1.ScheduledUtilization            .83799    
+Comprador 2.NumberSeized                    243.00    
+Comprador 2.ScheduledUtilization            .88950    
+Comprador 1 y 2.NumberSeized                499.00    
+Comprador 1 y 2.ScheduledUtilization        .86239    
+System.NumberOut                            488.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 2 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.0892     .02144     1.2657     2.7721        511    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        511    
+posiciones.WaitTime                         3.7787     (Corr)     .00000     14.851        511    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        511    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        511    
+posiciones.TotalTime                        5.8680     (Corr)     1.7308     17.412        511    
+Machining KANBAN.Queue.WaitingTime          1.9348     (Insuf)    .00000     7.3468        257    
+Surface Treatment _cascade_.Queue.WaitingT  1.9990     (Insuf)    .00000     7.1114        258    
+Machining _cascade_.Queue.WaitingTime       1.7413     (Insuf)    .00000     6.0352        256    
+Surface treatment KANBAN.Queue.WaitingTime  1.8461     (Insuf)    .00000     7.5048        258    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              10.026     (Corr)     .00000     30.000     5.0000    
+Comprador 1.NumberBusy                      .85020     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .85020     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .91680     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .91680     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.8072     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .90362     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.6575     (Insuf)    .00000     7.0000     .00000    
+Surface Treatment _cascade_.Queue.NumberIn  1.7191     (Corr)     .00000     8.0000     .00000    
+Machining _cascade_.Queue.NumberInQueue     1.4880     (Corr)     .00000     6.0000     1.0000    
+Surface treatment KANBAN.Queue.NumberInQue  1.5876     (Corr)     .00000     8.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    256  Infinite
+Count _cascade_                                 255  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         516.00    
+posiciones.NumberOut                        511.00    
+Comprador 1.NumberSeized                    258.00    
+Comprador 1.ScheduledUtilization            .85020    
+Comprador 2.NumberSeized                    256.00    
+Comprador 2.ScheduledUtilization            .91680    
+Comprador 1 y 2.NumberSeized                515.00    
+Comprador 1 y 2.ScheduledUtilization        .90362    
+System.NumberOut                            511.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 3 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.0917     .01987     1.3265     2.6849        510    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        510    
+posiciones.WaitTime                         8.8392     (Corr)     .00000     26.523        510    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        510    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        510    
+posiciones.TotalTime                        10.931     (Corr)     1.4999     28.769        510    
+Machining KANBAN.Queue.WaitingTime          4.4194     (Insuf)    .00000     13.696        258    
+Surface Treatment _cascade_.Queue.WaitingT  4.2935     (Insuf)    .00000     17.247        261    
+Machining _cascade_.Queue.WaitingTime       4.6179     (Insuf)    .00000     13.245        254    
+Surface treatment KANBAN.Queue.WaitingTime  4.2045     (Insuf)    .00000     14.193        260    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              18.791     (Corr)     .00000     56.000     16.000    
+Comprador 1.NumberBusy                      .85954     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .85954     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .92712     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .92712     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.8082     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .90411     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        3.8017     (Insuf)    .00000     15.000     1.0000    
+Surface Treatment _cascade_.Queue.NumberIn  3.7395     (Corr)     .00000     18.000     2.0000    
+Machining _cascade_.Queue.NumberInQueue     4.0037     (Corr)     .00000     12.000     6.0000    
+Surface treatment KANBAN.Queue.NumberInQue  3.6518     (Corr)     .00000     16.000     3.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    257  Infinite
+Count _cascade_                                 253  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         526.00    
+posiciones.NumberOut                        510.00    
+Comprador 1.NumberSeized                    261.00    
+Comprador 1.ScheduledUtilization            .85954    
+Comprador 2.NumberSeized                    254.00    
+Comprador 2.ScheduledUtilization            .92712    
+Comprador 1 y 2.NumberSeized                518.00    
+Comprador 1 y 2.ScheduledUtilization        .90411    
+System.NumberOut                            510.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 4 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.0779     .01778     1.4182     2.7265        508    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        508    
+posiciones.WaitTime                         4.8744     (Corr)     .00000     15.476        508    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        508    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        508    
+posiciones.TotalTime                        6.9523     (Corr)     1.6011     17.715        508    
+Machining KANBAN.Queue.WaitingTime          2.2363     (Insuf)    .00000     5.9747        257    
+Surface Treatment _cascade_.Queue.WaitingT  2.0998     (Insuf)    .00000     6.9139        264    
+Machining _cascade_.Queue.WaitingTime       3.3423     (Insuf)    .00000     11.243        253    
+Surface treatment KANBAN.Queue.WaitingTime  2.1078     (Insuf)    .00000     6.4736        262    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              12.252     (Corr)     .00000     31.000     28.000    
+Comprador 1.NumberBusy                      .87071     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .87071     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .91588     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .91588     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.7925     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .89629     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.9337     (Insuf)    .00000     7.0000     4.0000    
+Surface Treatment _cascade_.Queue.NumberIn  1.8654     (Corr)     .00000     8.0000     4.0000    
+Machining _cascade_.Queue.NumberInQueue     2.9963     (Corr)     .00000     11.000     10.000    
+Surface treatment KANBAN.Queue.NumberInQue  1.8775     (Corr)     .00000     8.0000     6.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    256  Infinite
+Count _cascade_                                 252  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         536.00    
+posiciones.NumberOut                        508.00    
+Comprador 1.NumberSeized                    264.00    
+Comprador 1.ScheduledUtilization            .87071    
+Comprador 2.NumberSeized                    253.00    
+Comprador 2.ScheduledUtilization            .91588    
+Comprador 1 y 2.NumberSeized                519.00    
+Comprador 1 y 2.ScheduledUtilization        .89629    
+System.NumberOut                            508.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 5 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.0997     .02313     1.4201     2.6891        517    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        517    
+posiciones.WaitTime                         5.4392     (Corr)     .00000     21.974        517    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        517    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        517    
+posiciones.TotalTime                        7.5390     (Corr)     1.5622     23.961        517    
+Machining KANBAN.Queue.WaitingTime          2.4500     (Insuf)    .00000     8.2424        259    
+Surface Treatment _cascade_.Queue.WaitingT  3.0756     (Insuf)    .00000     11.075        263    
+Machining _cascade_.Queue.WaitingTime       3.0124     (Insuf)    .00000     10.976        259    
+Surface treatment KANBAN.Queue.WaitingTime  2.2822     (Insuf)    .00000     7.7222        263    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              13.101     (Corr)     .00000     38.000     13.000    
+Comprador 1.NumberBusy                      .88508     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .88508     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .95237     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .95237     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.8073     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .90367     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        2.1235     (Insuf)    .00000     10.000     2.0000    
+Surface Treatment _cascade_.Queue.NumberIn  2.7064     (Corr)     .00000     11.000     2.0000    
+Machining _cascade_.Queue.NumberInQueue     2.6156     (Corr)     .00000     10.000     3.0000    
+Surface treatment KANBAN.Queue.NumberInQue  2.0108     (Corr)     .00000     11.000     2.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    259  Infinite
+Count _cascade_                                 258  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         530.00    
+posiciones.NumberOut                        517.00    
+Comprador 1.NumberSeized                    263.00    
+Comprador 1.ScheduledUtilization            .88508    
+Comprador 2.NumberSeized                    259.00    
+Comprador 2.ScheduledUtilization            .95237    
+Comprador 1 y 2.NumberSeized                522.00    
+Comprador 1 y 2.ScheduledUtilization        .90367    
+System.NumberOut                            517.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 6 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.0782     .01906     1.3281     2.7385        522    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        522    
+posiciones.WaitTime                         3.9168     (Corr)     .00000     12.700        522    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        522    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        522    
+posiciones.TotalTime                        5.9951     (Corr)     1.6143     14.403        522    
+Machining KANBAN.Queue.WaitingTime          2.1620     (Insuf)    .00000     7.0675        263    
+Surface Treatment _cascade_.Queue.WaitingT  2.2667     (Insuf)    .00000     6.8636        266    
+Machining _cascade_.Queue.WaitingTime       1.5609     (Insuf)    .00000     4.8132        261    
+Surface treatment KANBAN.Queue.WaitingTime  1.9874     (Insuf)    .00000     6.6827        267    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              10.817     (Corr)     .00000     27.000     22.000    
+Comprador 1.NumberBusy                      .87988     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .87988     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .94016     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .94016     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.8319     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .91598     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.9113     (Insuf)    .00000     7.0000     3.0000    
+Surface Treatment _cascade_.Queue.NumberIn  2.0638     (Corr)     .00000     8.0000     6.0000    
+Machining _cascade_.Queue.NumberInQueue     1.3830     (Corr)     .00000     5.0000     4.0000    
+Surface treatment KANBAN.Queue.NumberInQue  1.8072     (Corr)     .00000     8.0000     5.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    262  Infinite
+Count _cascade_                                 260  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         544.00    
+posiciones.NumberOut                        522.00    
+Comprador 1.NumberSeized                    266.00    
+Comprador 1.ScheduledUtilization            .87988    
+Comprador 2.NumberSeized                    261.00    
+Comprador 2.ScheduledUtilization            .94016    
+Comprador 1 y 2.NumberSeized                530.00    
+Comprador 1 y 2.ScheduledUtilization        .91598    
+System.NumberOut                            522.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 7 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.1059     .02268     1.5907     2.7234        445    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        445    
+posiciones.WaitTime                         1.3449     .37273     .00000     5.3233        445    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        445    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        445    
+posiciones.TotalTime                        3.4509     .36742     1.5907     7.7373        445    
+Machining KANBAN.Queue.WaitingTime          .72347     (Insuf)    .00000     3.2201        223    
+Surface Treatment _cascade_.Queue.WaitingT  1.0146     (Insuf)    .00000     4.1277        227    
+Machining _cascade_.Queue.WaitingTime       .39731     (Insuf)    .00000     2.6337        224    
+Surface treatment KANBAN.Queue.WaitingTime  .66155     (Insuf)    .00000     3.3628        228    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              5.3034     .83958     .00000     15.000     13.000    
+Comprador 1.NumberBusy                      .75879     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .75879     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .81339     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .81339     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.5860     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .79304     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        .55795     (Insuf)    .00000     4.0000     4.0000    
+Surface Treatment _cascade_.Queue.NumberIn  .78077     .23720     .00000     5.0000     2.0000    
+Machining _cascade_.Queue.NumberInQueue     .30185     .12941     .00000     3.0000     2.0000    
+Surface treatment KANBAN.Queue.NumberInQue  .50464     (Insuf)    .00000     6.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    222  Infinite
+Count _cascade_                                 223  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         458.00    
+posiciones.NumberOut                        445.00    
+Comprador 1.NumberSeized                    227.00    
+Comprador 1.ScheduledUtilization            .75879    
+Comprador 2.NumberSeized                    224.00    
+Comprador 2.ScheduledUtilization            .81339    
+Comprador 1 y 2.NumberSeized                451.00    
+Comprador 1 y 2.ScheduledUtilization        .79304    
+System.NumberOut                            445.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 8 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.1089     .02079     1.5393     2.8225        495    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        495    
+posiciones.WaitTime                         2.7539     (Corr)     .00000     9.1615        495    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        495    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        495    
+posiciones.TotalTime                        4.8628     (Corr)     1.7004     11.413        495    
+Machining KANBAN.Queue.WaitingTime          1.3429     (Insuf)    .00000     4.6838        250    
+Surface Treatment _cascade_.Queue.WaitingT  1.6711     (Insuf)    .00000     6.3913        251    
+Machining _cascade_.Queue.WaitingTime       1.2906     (Insuf)    .00000     5.9935        247    
+Surface treatment KANBAN.Queue.WaitingTime  1.1921     (Insuf)    .00000     4.2052        251    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              8.0914     (Corr)     .00000     20.000     7.0000    
+Comprador 1.NumberBusy                      .84329     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .84329     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .91412     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .91412     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.7429     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .87145     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.1191     (Insuf)    .00000     5.0000     .00000    
+Surface Treatment _cascade_.Queue.NumberIn  1.3982     (Corr)     .00000     7.0000     .00000    
+Machining _cascade_.Queue.NumberInQueue     1.0764     (Corr)     .00000     6.0000     3.0000    
+Surface treatment KANBAN.Queue.NumberInQue  .99741     (Corr)     .00000     5.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    249  Infinite
+Count _cascade_                                 246  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         502.00    
+posiciones.NumberOut                        495.00    
+Comprador 1.NumberSeized                    251.00    
+Comprador 1.ScheduledUtilization            .84329    
+Comprador 2.NumberSeized                    247.00    
+Comprador 2.ScheduledUtilization            .91412    
+Comprador 1 y 2.NumberSeized                501.00    
+Comprador 1 y 2.ScheduledUtilization        .87145    
+System.NumberOut                            495.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 9 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.0938     .02123     1.5343     2.7053        523    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        523    
+posiciones.WaitTime                         3.6353     (Corr)     .00000     11.713        523    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        523    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        523    
+posiciones.TotalTime                        5.7291     (Corr)     1.6926     13.812        523    
+Machining KANBAN.Queue.WaitingTime          1.8250     (Insuf)    .00000     6.6304        263    
+Surface Treatment _cascade_.Queue.WaitingT  2.1864     (Insuf)    .00000     8.0297        263    
+Machining _cascade_.Queue.WaitingTime       1.5028     (Insuf)    .00000     4.4896        263    
+Surface treatment KANBAN.Queue.WaitingTime  1.7211     (Insuf)    .00000     6.5367        263    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              10.009     (Corr)     .00000     27.000     3.0000    
+Comprador 1.NumberBusy                      .87331     (Insuf)    .00000     1.0000     .00000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .87331     (Insuf)    .00000     1.0000     .00000    
+Comprador 2.NumberBusy                      .95511     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .95511     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.8382     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .91911     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.5999     (Insuf)    .00000     7.0000     .00000    
+Surface Treatment _cascade_.Queue.NumberIn  1.9168     (Corr)     .00000     9.0000     .00000    
+Machining _cascade_.Queue.NumberInQueue     1.3174     (Corr)     .00000     5.0000     .00000    
+Surface treatment KANBAN.Queue.NumberInQue  1.5088     (Corr)     .00000     8.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    261  Infinite
+Count _cascade_                                 262  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         526.00    
+posiciones.NumberOut                        523.00    
+Comprador 1.NumberSeized                    263.00    
+Comprador 1.ScheduledUtilization            .87331    
+Comprador 2.NumberSeized                    263.00    
+Comprador 2.ScheduledUtilization            .95511    
+Comprador 1 y 2.NumberSeized                526.00    
+Comprador 1 y 2.ScheduledUtilization        .91911    
+System.NumberOut                            523.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 10 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.1102     .01677     1.1370     2.7557        536    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        536    
+posiciones.WaitTime                         9.6618     (Corr)     .00000     23.564        536    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        536    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        536    
+posiciones.TotalTime                        11.772     (Corr)     1.8129     25.693        536    
+Machining KANBAN.Queue.WaitingTime          3.3659     (Insuf)    .00000     8.9599        275    
+Surface Treatment _cascade_.Queue.WaitingT  3.2811     (Insuf)    .00000     9.8145        284    
+Machining _cascade_.Queue.WaitingTime       10.018     (Insuf)    .00000     19.411        263    
+Surface treatment KANBAN.Queue.WaitingTime  3.1959     (Insuf)    .00000     9.0490        281    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              22.565     (Corr)     .00000     47.000     34.000    
+Comprador 1.NumberBusy                      .94338     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .94338     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .98929     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .98929     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.9348     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .96743     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        3.1441     (Insuf)    .00000     12.000     5.0000    
+Surface Treatment _cascade_.Queue.NumberIn  3.1067     (Corr)     .00000     10.000     1.0000    
+Machining _cascade_.Queue.NumberInQueue     9.4273     (Corr)     .00000     20.000     20.000    
+Surface treatment KANBAN.Queue.NumberInQue  3.0196     (Corr)     .00000     12.000     4.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    274  Infinite
+Count _cascade_                                 262  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         570.00    
+posiciones.NumberOut                        536.00    
+Comprador 1.NumberSeized                    284.00    
+Comprador 1.ScheduledUtilization            .94338    
+Comprador 2.NumberSeized                    263.00    
+Comprador 2.ScheduledUtilization            .98929    
+Comprador 1 y 2.NumberSeized                556.00    
+Comprador 1 y 2.ScheduledUtilization        .96743    
+System.NumberOut                            536.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 11 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.1077     .02341     1.4649     2.7283        482    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        482    
+posiciones.WaitTime                         3.3122     (Corr)     .00000     9.7759        482    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        482    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        482    
+posiciones.TotalTime                        5.4199     (Corr)     1.7494     11.734        482    
+Machining KANBAN.Queue.WaitingTime          1.4130     (Insuf)    .00000     4.2743        241    
+Surface Treatment _cascade_.Queue.WaitingT  1.6587     (Insuf)    .00000     6.0646        242    
+Machining _cascade_.Queue.WaitingTime       2.1443     (Insuf)    .00000     7.3641        241    
+Surface treatment KANBAN.Queue.WaitingTime  1.3898     (Insuf)    .00000     4.2399        243    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              8.7108     (Corr)     .00000     21.000     4.0000    
+Comprador 1.NumberBusy                      .81279     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .81279     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .88810     (Insuf)    .00000     1.0000     .00000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .88810     (Insuf)    .00000     1.0000     .00000    
+Comprador 1 y 2.NumberBusy                  1.6879     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .84396     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.1351     (Insuf)    .00000     5.0000     .00000    
+Surface Treatment _cascade_.Queue.NumberIn  1.3384     (Corr)     .00000     7.0000     1.0000    
+Machining _cascade_.Queue.NumberInQueue     1.7226     (Corr)     .00000     7.0000     .00000    
+Surface treatment KANBAN.Queue.NumberInQue  1.1257     (Corr)     .00000     6.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    241  Infinite
+Count _cascade_                                 241  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         486.00    
+posiciones.NumberOut                        482.00    
+Comprador 1.NumberSeized                    242.00    
+Comprador 1.ScheduledUtilization            .81279    
+Comprador 2.NumberSeized                    241.00    
+Comprador 2.ScheduledUtilization            .88810    
+Comprador 1 y 2.NumberSeized                484.00    
+Comprador 1 y 2.ScheduledUtilization        .84396    
+System.NumberOut                            482.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 12 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.0873     .02198     1.4268     2.7792        497    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        497    
+posiciones.WaitTime                         3.6041     (Corr)     .00000     14.463        497    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        497    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        497    
+posiciones.TotalTime                        5.6915     (Corr)     1.6429     16.551        497    
+Machining KANBAN.Queue.WaitingTime          1.9484     (Insuf)    .00000     7.7629        250    
+Surface Treatment _cascade_.Queue.WaitingT  2.2457     (Insuf)    .00000     8.8429        250    
+Machining _cascade_.Queue.WaitingTime       1.1924     (Insuf)    .00000     5.2533        250    
+Surface treatment KANBAN.Queue.WaitingTime  1.7978     (Insuf)    .00000     7.5820        250    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              9.4600     (Corr)     .00000     30.000     3.0000    
+Comprador 1.NumberBusy                      .83925     (Insuf)    .00000     1.0000     .00000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .83925     (Insuf)    .00000     1.0000     .00000    
+Comprador 2.NumberBusy                      .88605     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .88605     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.7476     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .87380     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.6237     (Insuf)    .00000     9.0000     .00000    
+Surface Treatment _cascade_.Queue.NumberIn  1.8714     (Corr)     .00000     9.0000     .00000    
+Machining _cascade_.Queue.NumberInQueue     .99373     (Corr)     .00000     6.0000     .00000    
+Surface treatment KANBAN.Queue.NumberInQue  1.4982     (Corr)     .00000     10.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    248  Infinite
+Count _cascade_                                 249  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         500.00    
+posiciones.NumberOut                        497.00    
+Comprador 1.NumberSeized                    250.00    
+Comprador 1.ScheduledUtilization            .83925    
+Comprador 2.NumberSeized                    250.00    
+Comprador 2.ScheduledUtilization            .88605    
+Comprador 1 y 2.NumberSeized                500.00    
+Comprador 1 y 2.ScheduledUtilization        .87380    
+System.NumberOut                            497.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 13 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.0954     .02017     1.3904     2.7337        508    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        508    
+posiciones.WaitTime                         3.9901     (Corr)     .00000     14.889        508    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        508    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        508    
+posiciones.TotalTime                        6.0855     (Corr)     1.3904     16.815        508    
+Machining KANBAN.Queue.WaitingTime          1.9584     (Insuf)    .00000     8.3400        254    
+Surface Treatment _cascade_.Queue.WaitingT  2.1012     (Insuf)    .00000     10.011        254    
+Machining _cascade_.Queue.WaitingTime       2.1033     (Insuf)    .00000     5.7129        254    
+Surface treatment KANBAN.Queue.WaitingTime  1.8172     (Insuf)    .00000     8.2731        254    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              10.304     (Corr)     .00000     31.000     .00000    
+Comprador 1.NumberBusy                      .84910     (Insuf)    .00000     1.0000     .00000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .84910     (Insuf)    .00000     1.0000     .00000    
+Comprador 2.NumberBusy                      .92170     (Insuf)    .00000     1.0000     .00000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .92170     (Insuf)    .00000     1.0000     .00000    
+Comprador 1 y 2.NumberBusy                  1.7774     (Insuf)    .00000     2.0000     .00000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .88873     (Insuf)    .00000     1.0000     .00000    
+Machining KANBAN.Queue.NumberInQueue        1.6581     (Insuf)    .00000     10.000     .00000    
+Surface Treatment _cascade_.Queue.NumberIn  1.7790     (Corr)     .00000     11.000     .00000    
+Machining _cascade_.Queue.NumberInQueue     1.7808     (Corr)     .00000     6.0000     .00000    
+Surface treatment KANBAN.Queue.NumberInQue  1.5385     (Corr)     .00000     10.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    254  Infinite
+Count _cascade_                                 254  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         508.00    
+posiciones.NumberOut                        508.00    
+Comprador 1.NumberSeized                    254.00    
+Comprador 1.ScheduledUtilization            .84910    
+Comprador 2.NumberSeized                    254.00    
+Comprador 2.ScheduledUtilization            .92170    
+Comprador 1 y 2.NumberSeized                508.00    
+Comprador 1 y 2.ScheduledUtilization        .88873    
+System.NumberOut                            508.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 14 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.1104     .01960     1.4052     2.9583        495    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        495    
+posiciones.WaitTime                         4.4480     (Corr)     .00000     12.577        495    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        495    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        495    
+posiciones.TotalTime                        6.5584     (Corr)     1.6330     14.284        495    
+Machining KANBAN.Queue.WaitingTime          2.3404     (Insuf)    .00000     6.2539        251    
+Surface Treatment _cascade_.Queue.WaitingT  2.2643     (Insuf)    .00000     8.8773        252    
+Machining _cascade_.Queue.WaitingTime       2.1289     (Insuf)    .00000     6.4252        247    
+Surface treatment KANBAN.Queue.WaitingTime  2.1344     (Insuf)    .00000     6.1119        252    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              10.995     (Corr)     .00000     27.000     9.0000    
+Comprador 1.NumberBusy                      .83868     (Insuf)    .00000     1.0000     .00000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .83868     (Insuf)    .00000     1.0000     .00000    
+Comprador 2.NumberBusy                      .90449     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .90449     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.7770     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .88853     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.9603     (Insuf)    .00000     7.0000     1.0000    
+Surface Treatment _cascade_.Queue.NumberIn  1.9020     (Corr)     .00000     9.0000     .00000    
+Machining _cascade_.Queue.NumberInQueue     1.8203     (Corr)     .00000     7.0000     5.0000    
+Surface treatment KANBAN.Queue.NumberInQue  1.7929     (Corr)     .00000     8.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    249  Infinite
+Count _cascade_                                 246  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         504.00    
+posiciones.NumberOut                        495.00    
+Comprador 1.NumberSeized                    252.00    
+Comprador 1.ScheduledUtilization            .83868    
+Comprador 2.NumberSeized                    247.00    
+Comprador 2.ScheduledUtilization            .90449    
+Comprador 1 y 2.NumberSeized                503.00    
+Comprador 1 y 2.ScheduledUtilization        .88853    
+System.NumberOut                            495.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 15 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.0966     .01776     1.3020     2.8120        502    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        502    
+posiciones.WaitTime                         2.6711     (Corr)     .00000     9.8388        502    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        502    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        502    
+posiciones.TotalTime                        4.7678     (Corr)     1.5268     12.041        502    
+Machining KANBAN.Queue.WaitingTime          1.4275     (Insuf)    .00000     5.2863        252    
+Surface Treatment _cascade_.Queue.WaitingT  1.6190     (Insuf)    .00000     6.6908        255    
+Machining _cascade_.Queue.WaitingTime       1.0260     (Insuf)    .00000     3.6398        252    
+Surface treatment KANBAN.Queue.WaitingTime  1.2873     (Insuf)    .00000     5.2158        254    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              8.0886     (Corr)     .00000     24.000     12.000    
+Comprador 1.NumberBusy                      .85015     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .85015     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .91170     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .91170     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.7682     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .88413     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.2033     (Insuf)    .00000     7.0000     1.0000    
+Surface Treatment _cascade_.Queue.NumberIn  1.3835     (Corr)     .00000     7.0000     2.0000    
+Machining _cascade_.Queue.NumberInQueue     .86740     (Corr)     .00000     4.0000     2.0000    
+Surface treatment KANBAN.Queue.NumberInQue  1.1041     (Corr)     .00000     8.0000     3.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    251  Infinite
+Count _cascade_                                 251  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         514.00    
+posiciones.NumberOut                        502.00    
+Comprador 1.NumberSeized                    255.00    
+Comprador 1.ScheduledUtilization            .85015    
+Comprador 2.NumberSeized                    252.00    
+Comprador 2.ScheduledUtilization            .91170    
+Comprador 1 y 2.NumberSeized                506.00    
+Comprador 1 y 2.ScheduledUtilization        .88413    
+System.NumberOut                            502.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 16 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.0947     .01837     1.5078     3.0377        469    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        469    
+posiciones.WaitTime                         2.1009     (Corr)     .00000     7.7743        469    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        469    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        469    
+posiciones.TotalTime                        4.1956     (Corr)     1.6544     9.8246        469    
+Machining KANBAN.Queue.WaitingTime          1.0538     (Insuf)    .00000     4.2319        236    
+Surface Treatment _cascade_.Queue.WaitingT  1.3018     (Insuf)    .00000     6.1316        238    
+Machining _cascade_.Queue.WaitingTime       .90315     (Insuf)    .00000     3.6373        236    
+Surface treatment KANBAN.Queue.WaitingTime  .96910     (Insuf)    .00000     4.4034        239    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              6.6663     (Corr)     .00000     20.000     11.000    
+Comprador 1.NumberBusy                      .79588     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .79588     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .85279     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .85279     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.6548     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .82743     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        .83464     (Insuf)    .00000     5.0000     3.0000    
+Surface Treatment _cascade_.Queue.NumberIn  1.0439     (Corr)     .00000     7.0000     2.0000    
+Machining _cascade_.Queue.NumberInQueue     .71085     (Corr)     .00000     4.0000     1.0000    
+Surface treatment KANBAN.Queue.NumberInQue  .77338     (Corr)     .00000     6.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    234  Infinite
+Count _cascade_                                 235  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         480.00    
+posiciones.NumberOut                        469.00    
+Comprador 1.NumberSeized                    238.00    
+Comprador 1.ScheduledUtilization            .79588    
+Comprador 2.NumberSeized                    236.00    
+Comprador 2.ScheduledUtilization            .85279    
+Comprador 1 y 2.NumberSeized                475.00    
+Comprador 1 y 2.ScheduledUtilization        .82743    
+System.NumberOut                            469.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 17 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.1051     .02092     1.4043     2.7463        474    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        474    
+posiciones.WaitTime                         2.3961     (Corr)     .00000     8.7631        474    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        474    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        474    
+posiciones.TotalTime                        4.5012     (Corr)     1.6115     11.041        474    
+Machining KANBAN.Queue.WaitingTime          1.0965     (Insuf)    .00000     4.4046        239    
+Surface Treatment _cascade_.Queue.WaitingT  1.5128     (Insuf)    .00000     6.0403        240    
+Machining _cascade_.Queue.WaitingTime       1.2071     (Insuf)    .00000     4.4628        236    
+Surface treatment KANBAN.Queue.WaitingTime  .97996     (Insuf)    .00000     4.1034        240    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              7.1832     (Corr)     .00000     21.000     6.0000    
+Comprador 1.NumberBusy                      .80176     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .80176     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .87900     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .87900     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.6646     (Insuf)    .00000     2.0000     1.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .83234     (Insuf)    .00000     1.0000     .50000    
+Machining KANBAN.Queue.NumberInQueue        .87361     (Insuf)    .00000     5.0000     .00000    
+Surface Treatment _cascade_.Queue.NumberIn  1.2103     (Corr)     .00000     6.0000     .00000    
+Machining _cascade_.Queue.NumberInQueue     .96991     (Corr)     .00000     5.0000     3.0000    
+Surface treatment KANBAN.Queue.NumberInQue  .78397     (Corr)     .00000     5.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    239  Infinite
+Count _cascade_                                 235  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         480.00    
+posiciones.NumberOut                        474.00    
+Comprador 1.NumberSeized                    240.00    
+Comprador 1.ScheduledUtilization            .80176    
+Comprador 2.NumberSeized                    236.00    
+Comprador 2.ScheduledUtilization            .87900    
+Comprador 1 y 2.NumberSeized                479.00    
+Comprador 1 y 2.ScheduledUtilization        .83234    
+System.NumberOut                            474.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 18 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.1072     .01880     1.3933     2.7795        506    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        506    
+posiciones.WaitTime                         2.8478     (Corr)     .00000     8.8903        506    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        506    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        506    
+posiciones.TotalTime                        4.9550     (Corr)     1.5910     10.971        506    
+Machining KANBAN.Queue.WaitingTime          1.6263     (Insuf)    .00000     5.0841        254    
+Surface Treatment _cascade_.Queue.WaitingT  1.9484     (Insuf)    .00000     6.4278        255    
+Machining _cascade_.Queue.WaitingTime       .66504     (Insuf)    .00000     2.7286        254    
+Surface treatment KANBAN.Queue.WaitingTime  1.4339     (Insuf)    .00000     4.4217        257    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              8.4306     (Corr)     .00000     21.000     12.000    
+Comprador 1.NumberBusy                      .85221     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .85221     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .90545     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .90545     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.8219     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .91097     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.3826     (Insuf)    .00000     6.0000     2.0000    
+Surface Treatment _cascade_.Queue.NumberIn  1.6715     (Corr)     .00000     7.0000     4.0000    
+Machining _cascade_.Queue.NumberInQueue     .56307     (Corr)     .00000     3.0000     .00000    
+Surface treatment KANBAN.Queue.NumberInQue  1.2338     (Corr)     .00000     7.0000     2.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    253  Infinite
+Count _cascade_                                 253  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         518.00    
+posiciones.NumberOut                        506.00    
+Comprador 1.NumberSeized                    255.00    
+Comprador 1.ScheduledUtilization            .85221    
+Comprador 2.NumberSeized                    254.00    
+Comprador 2.ScheduledUtilization            .90545    
+Comprador 1 y 2.NumberSeized                511.00    
+Comprador 1 y 2.ScheduledUtilization        .91097    
+System.NumberOut                            506.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 19 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.1067     .01785     1.3743     2.7677        531    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        531    
+posiciones.WaitTime                         6.2856     (Corr)     .00000     14.473        531    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        531    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        531    
+posiciones.TotalTime                        8.3924     (Corr)     1.6891     16.297        531    
+Machining KANBAN.Queue.WaitingTime          2.9802     (Insuf)    .00000     6.7338        267    
+Surface Treatment _cascade_.Queue.WaitingT  3.5228     (Insuf)    .00000     8.3741        271    
+Machining _cascade_.Queue.WaitingTime       3.3901     (Insuf)    .00000     7.3339        265    
+Surface treatment KANBAN.Queue.WaitingTime  2.7246     (Insuf)    .00000     6.8046        272    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              15.187     (Corr)     .00000     30.000     19.000    
+Comprador 1.NumberBusy                      .90777     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .90777     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .95785     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .95785     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.9034     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .95174     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        2.6799     (Insuf)    .00000     9.0000     3.0000    
+Surface Treatment _cascade_.Queue.NumberIn  3.2131     (Corr)     .00000     9.0000     4.0000    
+Machining _cascade_.Queue.NumberInQueue     3.0400     (Corr)     .00000     7.0000     5.0000    
+Surface treatment KANBAN.Queue.NumberInQue  2.4852     (Corr)     .00000     9.0000     3.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    267  Infinite
+Count _cascade_                                 264  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         550.00    
+posiciones.NumberOut                        531.00    
+Comprador 1.NumberSeized                    271.00    
+Comprador 1.ScheduledUtilization            .90777    
+Comprador 2.NumberSeized                    265.00    
+Comprador 2.ScheduledUtilization            .95785    
+Comprador 1 y 2.NumberSeized                539.00    
+Comprador 1 y 2.ScheduledUtilization        .95174    
+System.NumberOut                            531.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 20 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.1068     .02346     1.5603     2.7935        444    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        444    
+posiciones.WaitTime                         1.6489     .56252     .00000     8.4461        444    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        444    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        444    
+posiciones.TotalTime                        3.7558     .56643     1.6401     10.727        444    
+Machining KANBAN.Queue.WaitingTime          .96062     (Insuf)    .00000     5.0997        223    
+Surface Treatment _cascade_.Queue.WaitingT  1.2419     (Insuf)    .00000     6.4554        226    
+Machining _cascade_.Queue.WaitingTime       .44835     (Insuf)    .00000     2.0101        224    
+Surface treatment KANBAN.Queue.WaitingTime  .74173     (Insuf)    .00000     4.7030        226    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              5.7264     (Corr)     .00000     20.000     12.000    
+Comprador 1.NumberBusy                      .74442     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .74442     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .81902     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .81902     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.5834     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .79172     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        .72476     (Insuf)    .00000     5.0000     3.0000    
+Surface Treatment _cascade_.Queue.NumberIn  .94825     .33987     .00000     7.0000     2.0000    
+Machining _cascade_.Queue.NumberInQueue     .33509     (Corr)     .00000     2.0000     1.0000    
+Surface treatment KANBAN.Queue.NumberInQue  .57144     (Insuf)    .00000     5.0000     2.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    221  Infinite
+Count _cascade_                                 223  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         456.00    
+posiciones.NumberOut                        444.00    
+Comprador 1.NumberSeized                    226.00    
+Comprador 1.ScheduledUtilization            .74442    
+Comprador 2.NumberSeized                    224.00    
+Comprador 2.ScheduledUtilization            .81902    
+Comprador 1 y 2.NumberSeized                449.00    
+Comprador 1 y 2.ScheduledUtilization        .79172    
+System.NumberOut                            444.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 21 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.1030     .02917     1.4289     2.8309        488    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        488    
+posiciones.WaitTime                         2.7984     (Corr)     .00000     9.9665        488    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        488    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        488    
+posiciones.TotalTime                        4.9014     (Corr)     1.4765     12.206        488    
+Machining KANBAN.Queue.WaitingTime          1.2475     (Insuf)    .00000     4.7686        246    
+Surface Treatment _cascade_.Queue.WaitingT  1.5405     (Insuf)    .00000     5.8557        247    
+Machining _cascade_.Queue.WaitingTime       1.7032     (Insuf)    .00000     6.8083        244    
+Surface treatment KANBAN.Queue.WaitingTime  1.1189     (Insuf)    .00000     4.7137        247    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              8.0466     (Corr)     .00000     21.000     6.0000    
+Comprador 1.NumberBusy                      .81794     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .81794     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .90155     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .90155     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.7213     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .86068     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.0229     (Insuf)    .00000     5.0000     .00000    
+Surface Treatment _cascade_.Queue.NumberIn  1.2684     (Corr)     .00000     6.0000     .00000    
+Machining _cascade_.Queue.NumberInQueue     1.3931     (Corr)     .00000     6.0000     2.0000    
+Surface treatment KANBAN.Queue.NumberInQue  .92128     (Corr)     .00000     5.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    245  Infinite
+Count _cascade_                                 243  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         494.00    
+posiciones.NumberOut                        488.00    
+Comprador 1.NumberSeized                    247.00    
+Comprador 1.ScheduledUtilization            .81794    
+Comprador 2.NumberSeized                    244.00    
+Comprador 2.ScheduledUtilization            .90155    
+Comprador 1 y 2.NumberSeized                493.00    
+Comprador 1 y 2.ScheduledUtilization        .86068    
+System.NumberOut                            488.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 22 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.1221     .01760     1.3092     2.9481        490    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        490    
+posiciones.WaitTime                         3.2510     (Corr)     .00000     12.260        490    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        490    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        490    
+posiciones.TotalTime                        5.3731     (Corr)     1.7513     14.349        490    
+Machining KANBAN.Queue.WaitingTime          1.3138     (Insuf)    .00000     5.1911        247    
+Surface Treatment _cascade_.Queue.WaitingT  1.4973     (Insuf)    .00000     5.7262        247    
+Machining _cascade_.Queue.WaitingTime       2.4116     (Insuf)    .00000     8.7850        246    
+Surface treatment KANBAN.Queue.WaitingTime  1.2394     (Insuf)    .00000     5.3567        247    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              8.7917     (Corr)     .00000     26.000     4.0000    
+Comprador 1.NumberBusy                      .82633     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .82633     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .92463     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .92463     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.7282     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .86413     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.0817     (Insuf)    .00000     6.0000     .00000    
+Surface Treatment _cascade_.Queue.NumberIn  1.2327     (Corr)     .00000     6.0000     .00000    
+Machining _cascade_.Queue.NumberInQueue     1.9775     (Corr)     .00000     8.0000     .00000    
+Surface treatment KANBAN.Queue.NumberInQue  1.0205     (Corr)     .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    245  Infinite
+Count _cascade_                                 245  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         494.00    
+posiciones.NumberOut                        490.00    
+Comprador 1.NumberSeized                    247.00    
+Comprador 1.ScheduledUtilization            .82633    
+Comprador 2.NumberSeized                    246.00    
+Comprador 2.ScheduledUtilization            .92463    
+Comprador 1 y 2.NumberSeized                494.00    
+Comprador 1 y 2.ScheduledUtilization        .86413    
+System.NumberOut                            490.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 23 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.1106     (Corr)     1.3180     2.7362        452    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        452    
+posiciones.WaitTime                         1.5764     (Corr)     .00000     9.6470        452    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        452    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        452    
+posiciones.TotalTime                        3.6871     (Corr)     1.4121     11.724        452    
+Machining KANBAN.Queue.WaitingTime          .76725     (Insuf)    .00000     3.4281        227    
+Surface Treatment _cascade_.Queue.WaitingT  1.0222     (Insuf)    .00000     6.5099        229    
+Machining _cascade_.Queue.WaitingTime       .74378     (Insuf)    .00000     4.0146        227    
+Surface treatment KANBAN.Queue.WaitingTime  .64026     (Insuf)    .00000     3.9704        229    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              5.6222     (Corr)     .00000     21.000     8.0000    
+Comprador 1.NumberBusy                      .75801     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .75801     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .83483     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .83483     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.6074     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .80374     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        .58113     (Insuf)    .00000     5.0000     1.0000    
+Surface Treatment _cascade_.Queue.NumberIn  .78462     (Insuf)    .00000     7.0000     1.0000    
+Machining _cascade_.Queue.NumberInQueue     .56307     (Corr)     .00000     4.0000     1.0000    
+Surface treatment KANBAN.Queue.NumberInQue  .49307     (Insuf)    .00000     6.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    226  Infinite
+Count _cascade_                                 226  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         460.00    
+posiciones.NumberOut                        452.00    
+Comprador 1.NumberSeized                    229.00    
+Comprador 1.ScheduledUtilization            .75801    
+Comprador 2.NumberSeized                    227.00    
+Comprador 2.ScheduledUtilization            .83483    
+Comprador 1 y 2.NumberSeized                456.00    
+Comprador 1 y 2.ScheduledUtilization        .80374    
+System.NumberOut                            452.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 24 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.1132     .02307     1.4366     2.8707        462    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        462    
+posiciones.WaitTime                         2.6719     (Corr)     .00000     12.364        462    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        462    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        462    
+posiciones.TotalTime                        4.7851     (Corr)     1.5022     14.350        462    
+Machining KANBAN.Queue.WaitingTime          1.3894     (Insuf)    .00000     6.2019        232    
+Surface Treatment _cascade_.Queue.WaitingT  1.7707     (Insuf)    .00000     9.6572        233    
+Machining _cascade_.Queue.WaitingTime       .94357     (Insuf)    .00000     5.2339        232    
+Surface treatment KANBAN.Queue.WaitingTime  1.2176     (Insuf)    .00000     5.7059        233    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              7.3908     (Corr)     .00000     27.000     4.0000    
+Comprador 1.NumberBusy                      .77584     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .77584     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .85874     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .85874     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.6311     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .81558     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.0744     (Insuf)    .00000     8.0000     .00000    
+Surface Treatment _cascade_.Queue.NumberIn  1.3752     (Corr)     .00000     10.000     .00000    
+Machining _cascade_.Queue.NumberInQueue     .72969     (Corr)     .00000     5.0000     .00000    
+Surface treatment KANBAN.Queue.NumberInQue  .94571     (Corr)     .00000     8.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    231  Infinite
+Count _cascade_                                 231  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         466.00    
+posiciones.NumberOut                        462.00    
+Comprador 1.NumberSeized                    233.00    
+Comprador 1.ScheduledUtilization            .77584    
+Comprador 2.NumberSeized                    232.00    
+Comprador 2.ScheduledUtilization            .85874    
+Comprador 1 y 2.NumberSeized                465.00    
+Comprador 1 y 2.ScheduledUtilization        .81558    
+System.NumberOut                            462.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 25 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.0740     .02168     1.3670     2.7514        535    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        535    
+posiciones.WaitTime                         5.6591     (Corr)     .00000     17.442        535    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        535    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        535    
+posiciones.TotalTime                        7.7331     (Corr)     1.5976     19.881        535    
+Machining KANBAN.Queue.WaitingTime          2.8615     (Insuf)    .00000     8.6818        268    
+Surface Treatment _cascade_.Queue.WaitingT  2.7904     (Insuf)    .00000     10.232        269    
+Machining _cascade_.Queue.WaitingTime       3.0026     (Insuf)    .00000     9.8268        268    
+Surface treatment KANBAN.Queue.WaitingTime  2.6210     (Insuf)    .00000     9.3998        270    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              13.814     (Corr)     .00000     38.000     7.0000    
+Comprador 1.NumberBusy                      .88339     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .88339     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .96107     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .96107     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.8666     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .93332     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        2.5563     (Insuf)    .00000     11.000     .00000    
+Surface Treatment _cascade_.Queue.NumberIn  2.5048     (Corr)     .00000     11.000     2.0000    
+Machining _cascade_.Queue.NumberInQueue     2.6823     (Corr)     .00000     9.0000     .00000    
+Surface treatment KANBAN.Queue.NumberInQue  2.3600     (Corr)     .00000     11.000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    268  Infinite
+Count _cascade_                                 267  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         542.00    
+posiciones.NumberOut                        535.00    
+Comprador 1.NumberSeized                    269.00    
+Comprador 1.ScheduledUtilization            .88339    
+Comprador 2.NumberSeized                    268.00    
+Comprador 2.ScheduledUtilization            .96107    
+Comprador 1 y 2.NumberSeized                538.00    
+Comprador 1 y 2.ScheduledUtilization        .93332    
+System.NumberOut                            535.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 26 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.0935     (Corr)     1.3852     2.7171        487    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        487    
+posiciones.WaitTime                         2.9405     (Corr)     .00000     10.257        487    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        487    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        487    
+posiciones.TotalTime                        5.0340     (Corr)     1.5853     12.370        487    
+Machining KANBAN.Queue.WaitingTime          1.5068     (Insuf)    .00000     6.0707        246    
+Surface Treatment _cascade_.Queue.WaitingT  1.8612     (Insuf)    .00000     7.9562        249    
+Machining _cascade_.Queue.WaitingTime       1.1577     (Insuf)    .00000     5.1435        244    
+Surface treatment KANBAN.Queue.WaitingTime  1.3888     (Insuf)    .00000     6.2719        251    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              8.4032     (Corr)     .00000     26.000     17.000    
+Comprador 1.NumberBusy                      .83139     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .83139     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .88834     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .88834     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.7254     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .86271     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.2558     (Insuf)    .00000     8.0000     5.0000    
+Surface Treatment _cascade_.Queue.NumberIn  1.5734     (Corr)     .00000     9.0000     3.0000    
+Machining _cascade_.Queue.NumberInQueue     .96174     (Corr)     .00000     5.0000     4.0000    
+Surface treatment KANBAN.Queue.NumberInQue  1.1670     (Corr)     .00000     8.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    244  Infinite
+Count _cascade_                                 243  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         504.00    
+posiciones.NumberOut                        487.00    
+Comprador 1.NumberSeized                    249.00    
+Comprador 1.ScheduledUtilization            .83139    
+Comprador 2.NumberSeized                    244.00    
+Comprador 2.ScheduledUtilization            .88834    
+Comprador 1 y 2.NumberSeized                497.00    
+Comprador 1 y 2.ScheduledUtilization        .86271    
+System.NumberOut                            487.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 27 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.1031     (Corr)     1.3991     2.7753        500    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        500    
+posiciones.WaitTime                         4.1298     (Corr)     .00000     14.356        500    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        500    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        500    
+posiciones.TotalTime                        6.2330     (Corr)     1.5916     16.578        500    
+Machining KANBAN.Queue.WaitingTime          2.0000     (Insuf)    .00000     6.3095        250    
+Surface Treatment _cascade_.Queue.WaitingT  2.5128     (Insuf)    .00000     8.2957        251    
+Machining _cascade_.Queue.WaitingTime       1.8867     (Insuf)    .00000     10.107        250    
+Surface treatment KANBAN.Queue.WaitingTime  1.8362     (Insuf)    .00000     6.0485        252    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              10.402     (Corr)     .00000     27.000     6.0000    
+Comprador 1.NumberBusy                      .83371     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .83371     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .92995     (Insuf)    .00000     1.0000     .00000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .92995     (Insuf)    .00000     1.0000     .00000    
+Comprador 1 y 2.NumberBusy                  1.7485     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .87426     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        1.6666     (Insuf)    .00000     8.0000     .00000    
+Surface Treatment _cascade_.Queue.NumberIn  2.1069     (Corr)     .00000     9.0000     2.0000    
+Machining _cascade_.Queue.NumberInQueue     1.5722     (Corr)     .00000     10.000     .00000    
+Surface treatment KANBAN.Queue.NumberInQue  1.5445     (Corr)     .00000     8.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    250  Infinite
+Count _cascade_                                 250  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         506.00    
+posiciones.NumberOut                        500.00    
+Comprador 1.NumberSeized                    251.00    
+Comprador 1.ScheduledUtilization            .83371    
+Comprador 2.NumberSeized                    250.00    
+Comprador 2.ScheduledUtilization            .92995    
+Comprador 1 y 2.NumberSeized                502.00    
+Comprador 1 y 2.ScheduledUtilization        .87426    
+System.NumberOut                            500.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 28 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.1117     .02194     1.4391     2.6871        512    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        512    
+posiciones.WaitTime                         5.4968     (Corr)     .00000     16.064        512    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        512    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        512    
+posiciones.TotalTime                        7.6085     (Corr)     1.7096     18.480        512    
+Machining KANBAN.Queue.WaitingTime          2.3131     (Insuf)    .00000     8.6619        260    
+Surface Treatment _cascade_.Queue.WaitingT  2.3160     (Insuf)    .00000     10.926        261    
+Machining _cascade_.Queue.WaitingTime       4.1126     (Insuf)    .00000     10.370        255    
+Surface treatment KANBAN.Queue.WaitingTime  2.2107     (Insuf)    .00000     8.8982        261    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              13.135     (Corr)     .00000     35.000     12.000    
+Comprador 1.NumberBusy                      .87216     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .87216     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .93831     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .93831     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.8320     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .91603     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        2.0069     (Insuf)    .00000     10.000     1.0000    
+Surface Treatment _cascade_.Queue.NumberIn  2.0193     (Corr)     .00000     11.000     1.0000    
+Machining _cascade_.Queue.NumberInQueue     3.5393     (Corr)     .00000     9.0000     5.0000    
+Surface treatment KANBAN.Queue.NumberInQue  1.9277     (Corr)     .00000     10.000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    258  Infinite
+Count _cascade_                                 254  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         524.00    
+posiciones.NumberOut                        512.00    
+Comprador 1.NumberSeized                    261.00    
+Comprador 1.ScheduledUtilization            .87216    
+Comprador 2.NumberSeized                    255.00    
+Comprador 2.ScheduledUtilization            .93831    
+Comprador 1 y 2.NumberSeized                521.00    
+Comprador 1 y 2.ScheduledUtilization        .91603    
+System.NumberOut                            512.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 29 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.0951     .02587     1.4691     2.8528        484    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        484    
+posiciones.WaitTime                         2.3840     (Corr)     .00000     10.747        484    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        484    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        484    
+posiciones.TotalTime                        4.4791     (Corr)     1.5817     12.393        484    
+Machining KANBAN.Queue.WaitingTime          1.2546     (Insuf)    .00000     6.2029        242    
+Surface Treatment _cascade_.Queue.WaitingT  1.6280     (Insuf)    .00000     6.9803        242    
+Machining _cascade_.Queue.WaitingTime       .79960     (Insuf)    .00000     2.7226        242    
+Surface treatment KANBAN.Queue.WaitingTime  1.0856     (Insuf)    .00000     5.2880        242    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              7.2263     (Corr)     .00000     24.000     .00000    
+Comprador 1.NumberBusy                      .80552     (Insuf)    .00000     1.0000     .00000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .80552     (Insuf)    .00000     1.0000     .00000    
+Comprador 2.NumberBusy                      .87872     (Insuf)    .00000     1.0000     .00000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .87872     (Insuf)    .00000     1.0000     .00000    
+Comprador 1 y 2.NumberBusy                  1.6958     (Insuf)    .00000     2.0000     .00000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .84794     (Insuf)    .00000     1.0000     .00000    
+Machining KANBAN.Queue.NumberInQueue        1.0121     (Insuf)    .00000     6.0000     .00000    
+Surface Treatment _cascade_.Queue.NumberIn  1.3133     (Corr)     .00000     8.0000     .00000    
+Machining _cascade_.Queue.NumberInQueue     .64501     (Corr)     .00000     3.0000     .00000    
+Surface treatment KANBAN.Queue.NumberInQue  .87579     (Corr)     .00000     7.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    242  Infinite
+Count _cascade_                                 242  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         484.00    
+posiciones.NumberOut                        484.00    
+Comprador 1.NumberSeized                    242.00    
+Comprador 1.ScheduledUtilization            .80552    
+Comprador 2.NumberSeized                    242.00    
+Comprador 2.ScheduledUtilization            .87872    
+Comprador 1 y 2.NumberSeized                484.00    
+Comprador 1 y 2.ScheduledUtilization        .84794    
+System.NumberOut                            484.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                  Summary for Replication 30 of 30
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+Replication ended at time      : 300.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           2.0941     .02324     1.3886     2.6614        482    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        482    
+posiciones.WaitTime                         5.0714     (Corr)     .00000     20.047        482    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        482    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        482    
+posiciones.TotalTime                        7.1656     (Corr)     1.3886     21.844        482    
+Machining KANBAN.Queue.WaitingTime          2.6339     (Insuf)    .00000     9.9943        241    
+Surface Treatment _cascade_.Queue.WaitingT  3.4682     (Insuf)    .00000     14.304        248    
+Machining _cascade_.Queue.WaitingTime       1.7345     (Insuf)    .00000     6.3871        243    
+Surface treatment KANBAN.Queue.WaitingTime  2.6097     (Insuf)    .00000     10.696        247    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              12.174     (Corr)     .00000     39.000     22.000    
+Comprador 1.NumberBusy                      .82773     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 1.Utilization                     .82773     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberBusy                      .87876     (Insuf)    .00000     1.0000     1.0000    
+Comprador 2.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Comprador 2.Utilization                     .87876     (Insuf)    .00000     1.0000     1.0000    
+Comprador 1 y 2.NumberBusy                  1.7030     (Insuf)    .00000     2.0000     2.0000    
+Comprador 1 y 2.NumberScheduled             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador 1 y 2.Utilization                 .85154     (Insuf)    .00000     1.0000     1.0000    
+Machining KANBAN.Queue.NumberInQueue        2.1985     (Insuf)    .00000     11.000     5.0000    
+Surface Treatment _cascade_.Queue.NumberIn  2.9166     (Corr)     .00000     15.000     4.0000    
+Machining _cascade_.Queue.NumberInQueue     1.4291     (Corr)     .00000     6.0000     4.0000    
+Surface treatment KANBAN.Queue.NumberInQue  2.2207     (Corr)     .00000     12.000     5.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Count KANBAN                                    240  Infinite
+Count _cascade_                                 242  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         504.00    
+posiciones.NumberOut                        482.00    
+Comprador 1.NumberSeized                    248.00    
+Comprador 1.ScheduledUtilization            .82773    
+Comprador 2.NumberSeized                    243.00    
+Comprador 2.ScheduledUtilization            .87876    
+Comprador 1 y 2.NumberSeized                488.00    
+Comprador 1 y 2.ScheduledUtilization        .85154    
+System.NumberOut                            482.00    
+
+
+                                      ARENA Simulation Results
+                             lvillar56@alumno.uned.es - License: STUDENT
+
+                                 Output Summary for 30 Replications
+
+Project: Comparativa colas                                           Run execution date : 2/27/2017
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 2/27/2017
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+posiciones.NumberIn                         506.40     10.469     456.00     570.00     30
+posiciones.NumberOut                        495.16     9.2193     444.00     536.00     30
+Comprador 1.NumberSeized                    251.56     5.0395     226.00     284.00     30
+Comprador 1.ScheduledUtilization            .83754     .01661     .74442     .94338     30
+Comprador 2.NumberSeized                    247.76     4.3889     224.00     268.00     30
+Comprador 2.ScheduledUtilization            .90449     .01567     .81339     .98929     30
+Comprador 1 y 2.NumberSeized                500.96     9.7309     449.00     556.00     30
+Comprador 1 y 2.ScheduledUtilization        .87535     .01656     .79172     .96743     30
+System.NumberOut                            495.16     9.2193     444.00     536.00     30
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.

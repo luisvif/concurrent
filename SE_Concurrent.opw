@@ -1,0 +1,26 @@
+[RESOURCES]
+SE Manager
+[VARIABLES]
+SDR.NumberOut True
+Feasibility.NumberIn
+Churn4.NumberOut True
+Process 9.NumberOut
+IdStakeholder.NumberOut
+SDR.NumberOut False
+Churn.NumberOut True
+Portfolio decision.NumberOut
+SystemLSynth.NumberIn
+SystemLSynth.NumberOut
+Churn2.NumberOut False
+Sensibility
+Lifecycle management.NumberOut
+Feasibility.NumberOut
+IdStakeholder.NumberIn
+Churn2.NumberOut True
+RequirementAn.NumberIn
+Churn3.NumberOut False
+RequirementAn.NumberOut
+Churn.NumberOut False
+Churn4.NumberOut False
+Process 9.NumberIn
+Churn3.NumberOut True

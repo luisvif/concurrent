@@ -1,0 +1,20 @@
+[RESOURCES]
+Comprador 1
+Comprador 2
+Comprador 1 y 2
+[VARIABLES]
+Duplicates @simulation purpouse.NumberOut Dup
+Machining _cascade_.NumberIn
+Duplicates @simulation purpouse.NumberOut Orig
+Surface Treatment _cascade_.NumberOut
+Surface treatment KANBAN.NumberOut
+media
+Llegada
+desv
+Incoming components.NumberOut
+Machining KANBAN.NumberOut
+End.NumberOut
+Surface Treatment _cascade_.NumberIn
+Machining KANBAN.NumberIn
+Machining _cascade_.NumberOut
+Surface treatment KANBAN.NumberIn

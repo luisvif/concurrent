@@ -1,0 +1,2186 @@
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 1 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.4973     .01282     .88948     2.0404        993    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        993    
+posiciones.WaitTime                         4.3341     (Corr)     .00000     23.243        993    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        993    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        993    
+posiciones.TotalTime                        5.8315     (Corr)     1.0213     24.765        993    
+Material Request #kanban.Queue.WaitingTime  .74778     .26994     .00000     4.8477        508    
+Purchase order issued #kanban.Queue.Waitin  .61759     .25433     .00000     4.5211        511    
+Material Request #waterfall.Queue.WaitingT  4.9982E-04 5.7729E-04 .00000     .10117        487    
+Purchase order issued #waterfall.Queue.Wai  7.4919     (Corr)     .00000     23.243        488    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              12.193     (Corr)     .00000     39.000     33.000    
+Buyer 1 wf.NumberBusy                       .96873     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .96873     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .47950     (Corr)     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .47950     (Corr)     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.5348     .09495     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .76744     .04747     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .76157     (Insuf)    .00000     8.0000     2.0000    
+Purchase order issued #kanban.Queue.Number  .63356     .24761     .00000     8.0000     2.0000    
+Material Request #waterfall.Queue.NumberIn  4.8682E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  7.8145     (Corr)     .00000     26.000     25.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       486  Infinite
+kanban                                          507  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1026.0    
+posiciones.NumberOut                        993.00    
+Buyer 1 wf.NumberSeized                     488.00    
+Buyer 1 wf.ScheduledUtilization             .96873    
+Buyer 2 wf.NumberSeized                     487.00    
+Buyer 2 wf.ScheduledUtilization             .47950    
+Buyer kb.NumberSeized                       1019.0    
+Buyer kb.ScheduledUtilization               .76744    
+System.NumberOut                            993.00    
+
+Beginning replication 2 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 2 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5024     .01401     .87876     2.0981       1017    
+posiciones.NVATime                          .00000     .00000     .00000     .00000       1017    
+posiciones.WaitTime                         8.2457     (Corr)     .00000     25.633       1017    
+posiciones.TranTime                         .00000     .00000     .00000     .00000       1017    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000       1017    
+posiciones.TotalTime                        9.7482     (Corr)     .96637     27.114       1017    
+Material Request #kanban.Queue.WaitingTime  .87747     (Corr)     .00000     5.4324        517    
+Purchase order issued #kanban.Queue.Waitin  .76998     (Corr)     .00000     5.3805        517    
+Material Request #waterfall.Queue.WaitingT  3.4775E-04 4.6732E-04 .00000     .08495        501    
+Purchase order issued #waterfall.Queue.Wai  15.090     (Corr)     .00000     25.633        502    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              20.236     (Corr)     .00000     42.000     17.000    
+Buyer 1 wf.NumberBusy                       .99506     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .99506     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .50488     .01582     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .50488     .01582     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.5591     (Corr)     .00000     2.0000     .00000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .77956     (Corr)     .00000     1.0000     .00000    
+Material Request #kanban.Queue.NumberInQue  .90731     (Corr)     .00000     8.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .79616     (Corr)     .00000     9.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  3.4845E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  15.474     (Corr)     .00000     26.000     15.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       500  Infinite
+kanban                                          517  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1034.0    
+posiciones.NumberOut                        1017.0    
+Buyer 1 wf.NumberSeized                     502.00    
+Buyer 1 wf.ScheduledUtilization             .99506    
+Buyer 2 wf.NumberSeized                     501.00    
+Buyer 2 wf.ScheduledUtilization             .50488    
+Buyer kb.NumberSeized                       1034.0    
+Buyer kb.ScheduledUtilization               .77956    
+System.NumberOut                            1017.0    
+
+Beginning replication 3 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 3 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.4931     .01207     .90712     2.0682        960    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        960    
+posiciones.WaitTime                         3.9284     (Corr)     .00000     15.730        960    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        960    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        960    
+posiciones.TotalTime                        5.4216     (Corr)     1.0493     17.508        960    
+Material Request #kanban.Queue.WaitingTime  .74286     .26525     .00000     4.7613        483    
+Purchase order issued #kanban.Queue.Waitin  .61809     .21523     .00000     4.3615        487    
+Material Request #waterfall.Queue.WaitingT  2.1990E-04 4.6492E-04 .00000     .10533        479    
+Purchase order issued #waterfall.Queue.Wai  6.5315     (Corr)     .00000     15.730        480    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              10.565     (Corr)     .00000     29.000     24.000    
+Buyer 1 wf.NumberBusy                       .96082     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .96082     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .47138     .02519     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .47138     .02519     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.4480     .11028     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .72401     .05514     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .72586     (Insuf)    .00000     7.0000     3.0000    
+Purchase order issued #kanban.Queue.Number  .61275     .26564     .00000     6.0000     5.0000    
+Material Request #waterfall.Queue.NumberIn  2.1067E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  6.3467     (Corr)     .00000     16.000     12.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       478  Infinite
+kanban                                          482  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         984.00    
+posiciones.NumberOut                        960.00    
+Buyer 1 wf.NumberSeized                     480.00    
+Buyer 1 wf.ScheduledUtilization             .96082    
+Buyer 2 wf.NumberSeized                     479.00    
+Buyer 2 wf.ScheduledUtilization             .47138    
+Buyer kb.NumberSeized                       970.00    
+Buyer kb.ScheduledUtilization               .72401    
+System.NumberOut                            960.00    
+
+Beginning replication 4 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 4 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.4957     .01388     .87359     2.0844       1032    
+posiciones.NVATime                          .00000     .00000     .00000     .00000       1032    
+posiciones.WaitTime                         15.952     (Corr)     .00000     65.504       1032    
+posiciones.TranTime                         .00000     .00000     .00000     .00000       1032    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000       1032    
+posiciones.TotalTime                        17.447     (Corr)     .98163     66.751       1032    
+Material Request #kanban.Queue.WaitingTime  1.1743     (Corr)     .00000     6.3253        550    
+Purchase order issued #kanban.Queue.Waitin  1.0440     (Corr)     .00000     6.6428        552    
+Material Request #waterfall.Queue.WaitingT  9.7238E-05 1.5381E-04 .00000     .03411        485    
+Purchase order issued #waterfall.Queue.Wai  31.652     (Corr)     .00000     65.741        486    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              40.389     (Corr)     .00000     83.000     80.000    
+Buyer 1 wf.NumberBusy                       .97884     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .97884     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .48166     (Corr)     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .48166     (Corr)     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.6381     (Insuf)    .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .81907     (Insuf)    .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  1.2952     (Corr)     .00000     10.000     2.0000    
+Purchase order issued #kanban.Queue.Number  1.1606     (Corr)     .00000     11.000     4.0000    
+Material Request #waterfall.Queue.NumberIn  9.4321E-05 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  34.834     (Corr)     .00000     71.000     70.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       484  Infinite
+kanban                                          548  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1112.0    
+posiciones.NumberOut                        1032.0    
+Buyer 1 wf.NumberSeized                     486.00    
+Buyer 1 wf.ScheduledUtilization             .97884    
+Buyer 2 wf.NumberSeized                     485.00    
+Buyer 2 wf.ScheduledUtilization             .48166    
+Buyer kb.NumberSeized                       1102.0    
+Buyer kb.ScheduledUtilization               .81907    
+System.NumberOut                            1032.0    
+
+Beginning replication 5 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 5 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.4950     .01661     .92445     2.1010        963    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        963    
+posiciones.WaitTime                         3.4585     (Corr)     .00000     24.712        963    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        963    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        963    
+posiciones.TotalTime                        4.9535     (Corr)     .96574     26.645        963    
+Material Request #kanban.Queue.WaitingTime  .82230     (Corr)     .00000     4.6950        494    
+Purchase order issued #kanban.Queue.Waitin  .72309     (Corr)     .00000     4.7326        495    
+Material Request #waterfall.Queue.WaitingT  3.8435E-05 5.0926E-05 .00000     .01011        471    
+Purchase order issued #waterfall.Queue.Wai  5.5431     (Corr)     .00000     25.216        472    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              10.120     (Corr)     .00000     38.000     27.000    
+Buyer 1 wf.NumberBusy                       .94366     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .94366     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .46548     .01648     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .46548     .01648     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.4767     .11499     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .73839     .05750     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .81243     (Insuf)    .00000     8.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .71586     (Corr)     .00000     8.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  3.6206E-05 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  5.7065     (Corr)     .00000     25.000     23.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       470  Infinite
+kanban                                          493  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         990.00    
+posiciones.NumberOut                        963.00    
+Buyer 1 wf.NumberSeized                     472.00    
+Buyer 1 wf.ScheduledUtilization             .94366    
+Buyer 2 wf.NumberSeized                     471.00    
+Buyer 2 wf.ScheduledUtilization             .46548    
+Buyer kb.NumberSeized                       989.00    
+Buyer kb.ScheduledUtilization               .73839    
+System.NumberOut                            963.00    
+
+Beginning replication 6 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 6 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.4868     .01404     .98809     2.0224       1053    
+posiciones.NVATime                          .00000     .00000     .00000     .00000       1053    
+posiciones.WaitTime                         11.888     (Corr)     .00000     48.442       1053    
+posiciones.TranTime                         .00000     .00000     .00000     .00000       1053    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000       1053    
+posiciones.TotalTime                        13.374     (Corr)     .98809     50.063       1053    
+Material Request #kanban.Queue.WaitingTime  .98592     (Corr)     .00000     4.4976        549    
+Purchase order issued #kanban.Queue.Waitin  .85988     (Corr)     .00000     4.5562        551    
+Material Request #waterfall.Queue.WaitingT  2.7658E-04 3.8063E-04 .00000     .09090        504    
+Purchase order issued #waterfall.Queue.Wai  22.859     (Corr)     .00000     48.442        505    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              30.200     (Corr)     .00000     60.000     49.000    
+Buyer 1 wf.NumberBusy                       .99961     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .99961     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .49933     .01330     .00000     1.0000     .00000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .49933     .01330     .00000     1.0000     .00000    
+Buyer kb.NumberBusy                         1.6363     (Insuf)    .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .81818     (Insuf)    .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  1.0825     (Corr)     .00000     6.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .94758     (Corr)     .00000     7.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  2.7879E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  25.034     (Corr)     .00000     51.000     46.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       504  Infinite
+kanban                                          549  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1102.0    
+posiciones.NumberOut                        1053.0    
+Buyer 1 wf.NumberSeized                     505.00    
+Buyer 1 wf.ScheduledUtilization             .99961    
+Buyer 2 wf.NumberSeized                     504.00    
+Buyer 2 wf.ScheduledUtilization             .49933    
+Buyer kb.NumberSeized                       1100.0    
+Buyer kb.ScheduledUtilization               .81818    
+System.NumberOut                            1053.0    
+
+Beginning replication 7 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 7 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5052     .01509     .98334     2.1210        993    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        993    
+posiciones.WaitTime                         6.3676     (Corr)     .00000     23.381        993    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        993    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        993    
+posiciones.TotalTime                        7.8728     (Corr)     .98334     24.588        993    
+Material Request #kanban.Queue.WaitingTime  .60775     .14375     .00000     2.6166        497    
+Purchase order issued #kanban.Queue.Waitin  .46150     .14143     .00000     2.9655        499    
+Material Request #waterfall.Queue.WaitingT  .00000     .00000     .00000     .00000        497    
+Purchase order issued #waterfall.Queue.Wai  11.631     (Corr)     .00000     23.381        498    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              15.643     (Corr)     .00000     32.000     5.0000    
+Buyer 1 wf.NumberBusy                       .99093     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .99093     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .50193     .01382     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .50193     .01382     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.5001     .09751     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .75006     .04875     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .60410     (Insuf)    .00000     5.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .46058     .14275     .00000     5.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  .00000     (Insuf)    .00000     .00000     .00000    
+Purchase order issued #waterfall.Queue.Num  11.585     (Corr)     .00000     25.000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       496  Infinite
+kanban                                          497  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         998.00    
+posiciones.NumberOut                        993.00    
+Buyer 1 wf.NumberSeized                     498.00    
+Buyer 1 wf.ScheduledUtilization             .99093    
+Buyer 2 wf.NumberSeized                     497.00    
+Buyer 2 wf.ScheduledUtilization             .50193    
+Buyer kb.NumberSeized                       996.00    
+Buyer kb.ScheduledUtilization               .75006    
+System.NumberOut                            993.00    
+
+Beginning replication 8 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 8 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5033     .01173     .85467     2.0950        924    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        924    
+posiciones.WaitTime                         2.9241     (Corr)     .00000     13.873        924    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        924    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        924    
+posiciones.TotalTime                        4.4274     (Corr)     .99045     15.252        924    
+Material Request #kanban.Queue.WaitingTime  .57692     .16627     .00000     3.2905        468    
+Purchase order issued #kanban.Queue.Waitin  .47284     .15369     .00000     2.6214        469    
+Material Request #waterfall.Queue.WaitingT  7.4047E-05 1.5534E-04 .00000     .03391        458    
+Purchase order issued #waterfall.Queue.Wai  4.8717     (Corr)     .00000     13.873        459    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              8.3764     (Corr)     .00000     24.000     16.000    
+Buyer 1 wf.NumberBusy                       .92798     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .92798     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .46021     (Corr)     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .46021     (Corr)     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.3974     .11369     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .69872     .05685     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .53999     (Insuf)    .00000     5.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .44363     .17630     .00000     6.0000     1.0000    
+Material Request #waterfall.Queue.NumberIn  6.7827E-05 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  4.6071     (Corr)     .00000     15.000     11.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       457  Infinite
+kanban                                          467  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         940.00    
+posiciones.NumberOut                        924.00    
+Buyer 1 wf.NumberSeized                     459.00    
+Buyer 1 wf.ScheduledUtilization             .92798    
+Buyer 2 wf.NumberSeized                     458.00    
+Buyer 2 wf.ScheduledUtilization             .46021    
+Buyer kb.NumberSeized                       937.00    
+Buyer kb.ScheduledUtilization               .69872    
+System.NumberOut                            924.00    
+
+Beginning replication 9 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 9 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.4958     .01769     .89432     2.1260        986    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        986    
+posiciones.WaitTime                         4.0192     (Corr)     .00000     17.806        986    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        986    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        986    
+posiciones.TotalTime                        5.5151     (Corr)     .94150     19.359        986    
+Material Request #kanban.Queue.WaitingTime  .68424     .18945     .00000     3.5351        499    
+Purchase order issued #kanban.Queue.Waitin  .56350     .15848     .00000     3.6851        499    
+Material Request #waterfall.Queue.WaitingT  1.2056E-04 2.5116E-04 .00000     .05895        489    
+Purchase order issued #waterfall.Queue.Wai  6.8369     (Corr)     .00000     17.806        490    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              11.003     (Corr)     .00000     32.000     12.000    
+Buyer 1 wf.NumberBusy                       .98229     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .98229     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .48626     .01706     .00000     1.0000     .00000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .48626     .01706     .00000     1.0000     .00000    
+Buyer kb.NumberBusy                         1.4874     .10040     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .74374     .05020     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .68287     (Corr)     .00000     6.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .56237     (Corr)     .00000     6.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  1.1791E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  6.8019     (Corr)     .00000     20.000     9.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       489  Infinite
+kanban                                          497  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         998.00    
+posiciones.NumberOut                        986.00    
+Buyer 1 wf.NumberSeized                     490.00    
+Buyer 1 wf.ScheduledUtilization             .98229    
+Buyer 2 wf.NumberSeized                     489.00    
+Buyer 2 wf.ScheduledUtilization             .48626    
+Buyer kb.NumberSeized                       998.00    
+Buyer kb.ScheduledUtilization               .74374    
+System.NumberOut                            986.00    
+
+Beginning replication 10 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 10 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5042     .01757     .91813     2.1122        986    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        986    
+posiciones.WaitTime                         6.9608     (Corr)     .00000     35.117        986    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        986    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        986    
+posiciones.TotalTime                        8.4650     (Corr)     .93898     36.395        986    
+Material Request #kanban.Queue.WaitingTime  .81999     (Corr)     .00000     4.4771        511    
+Purchase order issued #kanban.Queue.Waitin  .69602     (Corr)     .00000     4.1437        511    
+Material Request #waterfall.Queue.WaitingT  2.1759E-04 2.8804E-04 .00000     .05887        477    
+Purchase order issued #waterfall.Queue.Wai  12.807     (Corr)     .00000     35.117        478    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              18.057     (Corr)     .00000     48.000     36.000    
+Buyer 1 wf.NumberBusy                       .96311     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .96311     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .48060     (Corr)     .00000     1.0000     .00000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .48060     (Corr)     .00000     1.0000     .00000    
+Buyer kb.NumberBusy                         1.5297     .11304     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .76488     .05652     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .83803     .36382     .00000     7.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .71133     (Corr)     .00000     7.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  2.0758E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  13.533     (Corr)     .00000     40.000     33.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       477  Infinite
+kanban                                          509  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1022.0    
+posiciones.NumberOut                        986.00    
+Buyer 1 wf.NumberSeized                     478.00    
+Buyer 1 wf.ScheduledUtilization             .96311    
+Buyer 2 wf.NumberSeized                     477.00    
+Buyer 2 wf.ScheduledUtilization             .48060    
+Buyer kb.NumberSeized                       1022.0    
+Buyer kb.ScheduledUtilization               .76488    
+System.NumberOut                            986.00    
+
+Beginning replication 11 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 11 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5047     .01628     .89840     2.1281        972    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        972    
+posiciones.WaitTime                         3.5247     (Corr)     .00000     20.334        972    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        972    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        972    
+posiciones.TotalTime                        5.0294     (Corr)     1.0138     21.805        972    
+Material Request #kanban.Queue.WaitingTime  .93191     (Corr)     .00000     5.6146        496    
+Purchase order issued #kanban.Queue.Waitin  .80285     (Corr)     .00000     5.6825        497    
+Material Request #waterfall.Queue.WaitingT  8.0960E-05 (Corr)     .00000     .01815        478    
+Purchase order issued #waterfall.Queue.Wai  5.4371     (Corr)     .00000     20.334        479    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              10.202     (Corr)     .00000     38.000     22.000    
+Buyer 1 wf.NumberBusy                       .96775     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .96775     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .47721     .01597     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .47721     .01597     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.4847     .11314     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .74240     .05657     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .92446     (Insuf)    .00000     8.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .79803     (Corr)     .00000     10.000     .00000    
+Material Request #waterfall.Queue.NumberIn  7.7398E-05 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  5.5499     (Corr)     .00000     21.000     18.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       477  Infinite
+kanban                                          495  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         994.00    
+posiciones.NumberOut                        972.00    
+Buyer 1 wf.NumberSeized                     479.00    
+Buyer 1 wf.ScheduledUtilization             .96775    
+Buyer 2 wf.NumberSeized                     478.00    
+Buyer 2 wf.ScheduledUtilization             .47721    
+Buyer kb.NumberSeized                       993.00    
+Buyer kb.ScheduledUtilization               .74240    
+System.NumberOut                            972.00    
+
+Beginning replication 12 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 12 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5008     .01619     .89372     2.0720       1009    
+posiciones.NVATime                          .00000     .00000     .00000     .00000       1009    
+posiciones.WaitTime                         8.4905     (Corr)     .00000     29.777       1009    
+posiciones.TranTime                         .00000     .00000     .00000     .00000       1009    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000       1009    
+posiciones.TotalTime                        9.9913     (Corr)     .99057     31.043       1009    
+Material Request #kanban.Queue.WaitingTime  .73727     .21298     .00000     4.0322        515    
+Purchase order issued #kanban.Queue.Waitin  .60975     .19713     .00000     3.7852        517    
+Material Request #waterfall.Queue.WaitingT  1.7387E-04 2.3192E-04 .00000     .04119        496    
+Purchase order issued #waterfall.Queue.Wai  15.880     (Corr)     .00000     29.777        497    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              20.554     (Corr)     .00000     37.000     27.000    
+Buyer 1 wf.NumberBusy                       .99797     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .99797     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .49303     .01533     .00000     1.0000     .00000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .49303     .01533     .00000     1.0000     .00000    
+Buyer kb.NumberBusy                         1.5458     .11029     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .77293     .05515     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .76035     .29388     .00000     6.0000     2.0000    
+Purchase order issued #kanban.Queue.Number  .63162     .26832     .00000     6.0000     1.0000    
+Material Request #waterfall.Queue.NumberIn  1.7248E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  16.125     (Corr)     .00000     29.000     21.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       496  Infinite
+kanban                                          513  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1036.0    
+posiciones.NumberOut                        1009.0    
+Buyer 1 wf.NumberSeized                     497.00    
+Buyer 1 wf.ScheduledUtilization             .99797    
+Buyer 2 wf.NumberSeized                     496.00    
+Buyer 2 wf.ScheduledUtilization             .49303    
+Buyer kb.NumberSeized                       1032.0    
+Buyer kb.ScheduledUtilization               .77293    
+System.NumberOut                            1009.0    
+
+Beginning replication 13 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 13 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5035     .01674     .89200     2.0921       1044    
+posiciones.NVATime                          .00000     .00000     .00000     .00000       1044    
+posiciones.WaitTime                         15.610     (Corr)     .00000     54.773       1044    
+posiciones.TranTime                         .00000     .00000     .00000     .00000       1044    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000       1044    
+posiciones.TotalTime                        17.113     (Corr)     .97357     56.330       1044    
+Material Request #kanban.Queue.WaitingTime  1.8351     (Corr)     .00000     9.2726        555    
+Purchase order issued #kanban.Queue.Waitin  1.6907     (Corr)     .00000     9.0126        555    
+Material Request #waterfall.Queue.WaitingT  2.0029E-04 4.0306E-04 .00000     .09466        491    
+Purchase order issued #waterfall.Queue.Wai  29.357     (Corr)     .00000     54.773        492    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              39.676     (Corr)     .00000     88.000     66.000    
+Buyer 1 wf.NumberBusy                       .98615     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .98615     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .49258     .01439     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .49258     .01439     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.6677     (Insuf)    .00000     2.0000     1.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .83388     (Insuf)    .00000     1.0000     .50000    
+Material Request #kanban.Queue.NumberInQue  2.0370     (Corr)     .00000     15.000     .00000    
+Purchase order issued #kanban.Queue.Number  1.8767     (Corr)     .00000     14.000     .00000    
+Material Request #waterfall.Queue.NumberIn  1.9669E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  32.616     (Corr)     .00000     68.000     63.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       490  Infinite
+kanban                                          554  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1110.0    
+posiciones.NumberOut                        1044.0    
+Buyer 1 wf.NumberSeized                     492.00    
+Buyer 1 wf.ScheduledUtilization             .98615    
+Buyer 2 wf.NumberSeized                     491.00    
+Buyer 2 wf.ScheduledUtilization             .49258    
+Buyer kb.NumberSeized                       1110.0    
+Buyer kb.ScheduledUtilization               .83388    
+System.NumberOut                            1044.0    
+
+Beginning replication 14 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 14 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5142     (Corr)     .94562     2.1404        918    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        918    
+posiciones.WaitTime                         4.1991     (Corr)     .00000     20.037        918    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        918    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        918    
+posiciones.TotalTime                        5.7133     (Corr)     .94562     21.450        918    
+Material Request #kanban.Queue.WaitingTime  .81455     .27579     .00000     4.0545        462    
+Purchase order issued #kanban.Queue.Waitin  .70115     (Corr)     .00000     3.6650        462    
+Material Request #waterfall.Queue.WaitingT  3.6619E-04 5.3526E-04 .00000     .11034        456    
+Purchase order issued #waterfall.Queue.Wai  6.9120     (Corr)     .00000     20.037        457    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              10.538     (Corr)     .00000     30.000     6.0000    
+Buyer 1 wf.NumberBusy                       .93269     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .93269     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .45310     (Corr)     .00000     1.0000     .00000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .45310     (Corr)     .00000     1.0000     .00000    
+Buyer kb.NumberBusy                         1.3956     .15860     .00000     2.0000     .00000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .69783     .07930     .00000     1.0000     .00000    
+Material Request #kanban.Queue.NumberInQue  .75265     (Insuf)    .00000     6.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .64786     .30939     .00000     6.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  3.3396E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  6.3563     (Corr)     .00000     21.000     5.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       456  Infinite
+kanban                                          462  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         924.00    
+posiciones.NumberOut                        918.00    
+Buyer 1 wf.NumberSeized                     457.00    
+Buyer 1 wf.ScheduledUtilization             .93269    
+Buyer 2 wf.NumberSeized                     456.00    
+Buyer 2 wf.ScheduledUtilization             .45310    
+Buyer kb.NumberSeized                       924.00    
+Buyer kb.ScheduledUtilization               .69783    
+System.NumberOut                            918.00    
+
+Beginning replication 15 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 15 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.4937     .01372     .94657     2.1042       1001    
+posiciones.NVATime                          .00000     .00000     .00000     .00000       1001    
+posiciones.WaitTime                         3.3393     (Corr)     .00000     15.883       1001    
+posiciones.TranTime                         .00000     .00000     .00000     .00000       1001    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000       1001    
+posiciones.TotalTime                        4.8330     (Corr)     1.0597     17.626       1001    
+Material Request #kanban.Queue.WaitingTime  .58357     .14810     .00000     3.4819        506    
+Purchase order issued #kanban.Queue.Waitin  .45625     .15369     .00000     2.9677        507    
+Material Request #waterfall.Queue.WaitingT  4.2495E-04 4.3126E-04 .00000     .07270        496    
+Purchase order issued #waterfall.Queue.Wai  5.6817     (Corr)     .00000     15.883        497    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              9.7766     (Corr)     .00000     27.000     15.000    
+Buyer 1 wf.NumberBusy                       .97839     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .97839     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .49843     .01649     .00000     1.0000     .00000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .49843     .01649     .00000     1.0000     .00000    
+Buyer kb.NumberBusy                         1.5178     .09835     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .75893     .04917     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .59058     .18167     .00000     5.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .46269     .14523     .00000     5.0000     1.0000    
+Material Request #waterfall.Queue.NumberIn  4.2155E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  5.7282     (Corr)     .00000     16.000     11.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       496  Infinite
+kanban                                          505  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1016.0    
+posiciones.NumberOut                        1001.0    
+Buyer 1 wf.NumberSeized                     497.00    
+Buyer 1 wf.ScheduledUtilization             .97839    
+Buyer 2 wf.NumberSeized                     496.00    
+Buyer 2 wf.ScheduledUtilization             .49843    
+Buyer kb.NumberSeized                       1013.0    
+Buyer kb.ScheduledUtilization               .75893    
+System.NumberOut                            1001.0    
+
+Beginning replication 16 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 16 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5066     .01215     .91122     2.0983        975    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        975    
+posiciones.WaitTime                         4.6894     (Corr)     .00000     22.339        975    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        975    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        975    
+posiciones.TotalTime                        6.1960     (Corr)     .95164     23.634        975    
+Material Request #kanban.Queue.WaitingTime  .75470     (Corr)     .00000     3.7507        492    
+Purchase order issued #kanban.Queue.Waitin  .62548     (Corr)     .00000     3.4380        492    
+Material Request #waterfall.Queue.WaitingT  5.3927E-04 5.0149E-04 .00000     .08423        483    
+Purchase order issued #waterfall.Queue.Wai  8.0676     (Corr)     .00000     22.339        484    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              12.225     (Corr)     .00000     36.000     9.0000    
+Buyer 1 wf.NumberBusy                       .97252     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .97252     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .48940     .01583     .00000     1.0000     .00000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .48940     .01583     .00000     1.0000     .00000    
+Buyer kb.NumberBusy                         1.4775     .11140     .00000     2.0000     .00000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .73878     .05570     .00000     1.0000     .00000    
+Material Request #kanban.Queue.NumberInQue  .74262     (Insuf)    .00000     6.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .61547     .28006     .00000     7.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  5.2093E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  7.9277     (Corr)     .00000     24.000     8.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       483  Infinite
+kanban                                          492  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         984.00    
+posiciones.NumberOut                        975.00    
+Buyer 1 wf.NumberSeized                     484.00    
+Buyer 1 wf.ScheduledUtilization             .97252    
+Buyer 2 wf.NumberSeized                     483.00    
+Buyer 2 wf.ScheduledUtilization             .48940    
+Buyer kb.NumberSeized                       984.00    
+Buyer kb.ScheduledUtilization               .73878    
+System.NumberOut                            975.00    
+
+Beginning replication 17 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 17 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.4947     .01560     .93503     2.0774        988    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        988    
+posiciones.WaitTime                         4.6934     (Corr)     .00000     21.953        988    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        988    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        988    
+posiciones.TotalTime                        6.1881     (Corr)     1.0129     23.912        988    
+Material Request #kanban.Queue.WaitingTime  .71113     (Corr)     .00000     4.2758        502    
+Purchase order issued #kanban.Queue.Waitin  .60883     (Corr)     .00000     4.2961        503    
+Material Request #waterfall.Queue.WaitingT  3.9275E-04 4.5667E-04 .00000     .09483        486    
+Purchase order issued #waterfall.Queue.Wai  8.1916     (Corr)     .00000     21.953        487    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              12.544     (Corr)     .00000     32.000     18.000    
+Buyer 1 wf.NumberBusy                       .96537     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .96537     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .48929     .02268     .00000     1.0000     .00000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .48929     .02268     .00000     1.0000     .00000    
+Buyer kb.NumberBusy                         1.5019     .11986     .00000     2.0000     1.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .75098     .05993     .00000     1.0000     .50000    
+Material Request #kanban.Queue.NumberInQue  .71397     (Corr)     .00000     7.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .61248     (Corr)     .00000     7.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  3.8175E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  8.2610     (Corr)     .00000     22.000     16.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       486  Infinite
+kanban                                          502  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1006.0    
+posiciones.NumberOut                        988.00    
+Buyer 1 wf.NumberSeized                     487.00    
+Buyer 1 wf.ScheduledUtilization             .96537    
+Buyer 2 wf.NumberSeized                     486.00    
+Buyer 2 wf.ScheduledUtilization             .48929    
+Buyer kb.NumberSeized                       1005.0    
+Buyer kb.ScheduledUtilization               .75098    
+System.NumberOut                            988.00    
+
+Beginning replication 18 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 18 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5085     (Corr)     .90945     2.0532        986    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        986    
+posiciones.WaitTime                         5.3465     (Corr)     .00000     27.228        986    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        986    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        986    
+posiciones.TotalTime                        6.8550     (Corr)     1.0368     28.619        986    
+Material Request #kanban.Queue.WaitingTime  .71569     .25010     .00000     3.9027        505    
+Purchase order issued #kanban.Queue.Waitin  .59113     (Corr)     .00000     3.8959        506    
+Material Request #waterfall.Queue.WaitingT  4.2500E-04 4.6981E-04 .00000     .07931        483    
+Purchase order issued #waterfall.Queue.Wai  9.6348     (Corr)     .00000     27.228        484    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              14.134     (Corr)     .00000     35.000     28.000    
+Buyer 1 wf.NumberBusy                       .97671     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .97671     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .48683     .01428     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .48683     .01428     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.5162     .10323     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .75812     .05161     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .72285     (Insuf)    .00000     6.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .59891     (Corr)     .00000     6.0000     1.0000    
+Material Request #waterfall.Queue.NumberIn  4.1055E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  9.8321     (Corr)     .00000     26.000     23.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       482  Infinite
+kanban                                          504  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1014.0    
+posiciones.NumberOut                        986.00    
+Buyer 1 wf.NumberSeized                     484.00    
+Buyer 1 wf.ScheduledUtilization             .97671    
+Buyer 2 wf.NumberSeized                     483.00    
+Buyer 2 wf.ScheduledUtilization             .48683    
+Buyer kb.NumberSeized                       1011.0    
+Buyer kb.ScheduledUtilization               .75812    
+System.NumberOut                            986.00    
+
+Beginning replication 19 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 19 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5037     .01152     .83441     2.1027        978    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        978    
+posiciones.WaitTime                         4.2164     (Corr)     .00000     19.936        978    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        978    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        978    
+posiciones.TotalTime                        5.7201     (Corr)     .99542     21.522        978    
+Material Request #kanban.Queue.WaitingTime  .75633     .25730     .00000     4.2855        493    
+Purchase order issued #kanban.Queue.Waitin  .61891     .23969     .00000     4.3685        494    
+Material Request #waterfall.Queue.WaitingT  1.8785E-04 2.5357E-04 .00000     .05400        485    
+Purchase order issued #waterfall.Queue.Wai  7.1194     (Corr)     .00000     19.936        486    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              11.347     (Corr)     .00000     31.000     10.000    
+Buyer 1 wf.NumberBusy                       .97990     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .97990     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .48214     .01301     .00000     1.0000     .00000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .48214     .01301     .00000     1.0000     .00000    
+Buyer kb.NumberBusy                         1.4830     (Corr)     .00000     2.0000     1.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .74150     (Corr)     .00000     1.0000     .50000    
+Material Request #kanban.Queue.NumberInQue  .74574     (Insuf)    .00000     6.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .61148     .25313     .00000     6.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  1.8222E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  7.0450     (Corr)     .00000     19.000     8.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       485  Infinite
+kanban                                          493  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         988.00    
+posiciones.NumberOut                        978.00    
+Buyer 1 wf.NumberSeized                     486.00    
+Buyer 1 wf.ScheduledUtilization             .97990    
+Buyer 2 wf.NumberSeized                     485.00    
+Buyer 2 wf.ScheduledUtilization             .48214    
+Buyer kb.NumberSeized                       987.00    
+Buyer kb.ScheduledUtilization               .74150    
+System.NumberOut                            978.00    
+
+Beginning replication 20 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 20 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.4968     .01435     .90560     2.0742        984    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        984    
+posiciones.WaitTime                         6.7786     (Corr)     .00000     28.430        984    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        984    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        984    
+posiciones.TotalTime                        8.2755     (Corr)     .90560     30.265        984    
+Material Request #kanban.Queue.WaitingTime  1.1649     (Corr)     .00000     6.7582        505    
+Purchase order issued #kanban.Queue.Waitin  1.0446     (Corr)     .00000     6.1842        506    
+Material Request #waterfall.Queue.WaitingT  8.2245E-05 1.0518E-04 .00000     .02037        480    
+Purchase order issued #waterfall.Queue.Wai  11.664     (Corr)     .00000     29.106        481    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              17.047     (Corr)     .00000     37.000     28.000    
+Buyer 1 wf.NumberBusy                       .95183     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .95183     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .48238     (Corr)     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .48238     (Corr)     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.5170     .12121     .00000     2.0000     1.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .75852     .06061     .00000     1.0000     .50000    
+Material Request #kanban.Queue.NumberInQue  1.1765     (Corr)     .00000     9.0000     .00000    
+Purchase order issued #kanban.Queue.Number  1.0571     (Corr)     .00000     9.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  7.8955E-05 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  11.862     (Corr)     .00000     28.000     25.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       479  Infinite
+kanban                                          505  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1012.0    
+posiciones.NumberOut                        984.00    
+Buyer 1 wf.NumberSeized                     481.00    
+Buyer 1 wf.ScheduledUtilization             .95183    
+Buyer 2 wf.NumberSeized                     480.00    
+Buyer 2 wf.ScheduledUtilization             .48238    
+Buyer kb.NumberSeized                       1011.0    
+Buyer kb.ScheduledUtilization               .75852    
+System.NumberOut                            984.00    
+
+Beginning replication 21 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 21 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5034     .01194     .87956     2.1236        954    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        954    
+posiciones.WaitTime                         4.7857     (Corr)     .00000     21.087        954    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        954    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        954    
+posiciones.TotalTime                        6.2891     (Corr)     .95609     22.545        954    
+Material Request #kanban.Queue.WaitingTime  .76557     (Corr)     .00000     3.4947        486    
+Purchase order issued #kanban.Queue.Waitin  .66062     (Corr)     .00000     3.8422        488    
+Material Request #waterfall.Queue.WaitingT  1.0835E-04 1.8869E-04 .00000     .04218        469    
+Purchase order issued #waterfall.Queue.Wai  8.2962     (Corr)     .00000     21.087        470    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              12.369     (Corr)     .00000     35.000     22.000    
+Buyer 1 wf.NumberBusy                       .94625     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .94625     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .46732     (Corr)     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .46732     (Corr)     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.4602     .14441     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .73011     .07220     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .74414     (Insuf)    .00000     6.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .64476     (Corr)     .00000     6.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  1.0163E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  8.1068     (Corr)     .00000     21.000     18.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       468  Infinite
+kanban                                          486  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         976.00    
+posiciones.NumberOut                        954.00    
+Buyer 1 wf.NumberSeized                     470.00    
+Buyer 1 wf.ScheduledUtilization             .94625    
+Buyer 2 wf.NumberSeized                     469.00    
+Buyer 2 wf.ScheduledUtilization             .46732    
+Buyer kb.NumberSeized                       974.00    
+Buyer kb.ScheduledUtilization               .73011    
+System.NumberOut                            954.00    
+
+Beginning replication 22 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 22 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5101     .01287     .94594     2.0775        972    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        972    
+posiciones.WaitTime                         4.3262     (Corr)     .00000     26.791        972    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        972    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        972    
+posiciones.TotalTime                        5.8364     (Corr)     1.0068     28.513        972    
+Material Request #kanban.Queue.WaitingTime  .83112     (Corr)     .00000     4.4553        495    
+Purchase order issued #kanban.Queue.Waitin  .68864     (Corr)     .00000     3.9215        497    
+Material Request #waterfall.Queue.WaitingT  1.7730E-04 2.6546E-04 .00000     .05954        479    
+Purchase order issued #waterfall.Queue.Wai  7.2942     (Corr)     .00000     26.791        480    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              11.847     (Corr)     .00000     40.000     24.000    
+Buyer 1 wf.NumberBusy                       .96625     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .96625     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .48106     .01897     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .48106     .01897     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.4972     (Corr)     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .74864     (Corr)     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .82354     (Insuf)    .00000     7.0000     1.0000    
+Purchase order issued #kanban.Queue.Number  .68578     (Corr)     .00000     8.0000     1.0000    
+Material Request #waterfall.Queue.NumberIn  1.6986E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  7.3937     (Corr)     .00000     28.000     18.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       478  Infinite
+kanban                                          494  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         996.00    
+posiciones.NumberOut                        972.00    
+Buyer 1 wf.NumberSeized                     480.00    
+Buyer 1 wf.ScheduledUtilization             .96625    
+Buyer 2 wf.NumberSeized                     479.00    
+Buyer 2 wf.ScheduledUtilization             .48106    
+Buyer kb.NumberSeized                       992.00    
+Buyer kb.ScheduledUtilization               .74864    
+System.NumberOut                            972.00    
+
+Beginning replication 23 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 23 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5040     .01431     .90796     2.1351        966    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        966    
+posiciones.WaitTime                         3.8757     (Corr)     .00000     20.136        966    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        966    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        966    
+posiciones.TotalTime                        5.3797     (Corr)     1.0241     21.706        966    
+Material Request #kanban.Queue.WaitingTime  .80713     (Corr)     .00000     5.0493        486    
+Purchase order issued #kanban.Queue.Waitin  .69844     (Corr)     .00000     4.7272        488    
+Material Request #waterfall.Queue.WaitingT  3.0258E-04 3.1269E-04 .00000     .05107        480    
+Purchase order issued #waterfall.Queue.Wai  6.2842     (Corr)     .00000     20.136        481    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              10.496     (Corr)     .00000     37.000     10.000    
+Buyer 1 wf.NumberBusy                       .96175     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .96175     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .48226     (Corr)     .00000     1.0000     .00000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .48226     (Corr)     .00000     1.0000     .00000    
+Buyer kb.NumberBusy                         1.4652     .11223     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .73262     .05612     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .78453     (Insuf)    .00000     8.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .68168     .39029     .00000     7.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  2.9048E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  6.1209     (Corr)     .00000     21.000     7.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       480  Infinite
+kanban                                          486  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         976.00    
+posiciones.NumberOut                        966.00    
+Buyer 1 wf.NumberSeized                     481.00    
+Buyer 1 wf.ScheduledUtilization             .96175    
+Buyer 2 wf.NumberSeized                     480.00    
+Buyer 2 wf.ScheduledUtilization             .48226    
+Buyer kb.NumberSeized                       974.00    
+Buyer kb.ScheduledUtilization               .73262    
+System.NumberOut                            966.00    
+
+Beginning replication 24 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 24 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5143     .01741     .91379     2.0624        979    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        979    
+posiciones.WaitTime                         4.0847     (Corr)     .00000     19.291        979    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        979    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        979    
+posiciones.TotalTime                        5.5990     (Corr)     1.0081     21.026        979    
+Material Request #kanban.Queue.WaitingTime  .73663     (Corr)     .00000     3.3212        496    
+Purchase order issued #kanban.Queue.Waitin  .61211     .17763     .00000     2.9286        497    
+Material Request #waterfall.Queue.WaitingT  3.5709E-04 4.3122E-04 .00000     .08850        483    
+Purchase order issued #waterfall.Queue.Wai  6.9074     (Corr)     .00000     19.291        484    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              11.230     (Corr)     .00000     31.000     15.000    
+Buyer 1 wf.NumberBusy                       .98071     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .98071     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .48358     .01440     .00000     1.0000     .00000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .48358     .01440     .00000     1.0000     .00000    
+Buyer kb.NumberBusy                         1.5041     .09290     .00000     2.0000     1.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .75206     .04645     .00000     1.0000     .50000    
+Material Request #kanban.Queue.NumberInQue  .73073     (Insuf)    .00000     5.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .60844     .21238     .00000     5.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  3.4495E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  6.9221     (Corr)     .00000     19.000     13.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       483  Infinite
+kanban                                          496  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         994.00    
+posiciones.NumberOut                        979.00    
+Buyer 1 wf.NumberSeized                     484.00    
+Buyer 1 wf.ScheduledUtilization             .98071    
+Buyer 2 wf.NumberSeized                     483.00    
+Buyer 2 wf.ScheduledUtilization             .48358    
+Buyer kb.NumberSeized                       993.00    
+Buyer kb.ScheduledUtilization               .75206    
+System.NumberOut                            979.00    
+
+Beginning replication 25 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 25 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.4757     .01519     .88643     2.0760       1070    
+posiciones.NVATime                          .00000     .00000     .00000     .00000       1070    
+posiciones.WaitTime                         10.836     (Corr)     .00000     49.756       1070    
+posiciones.TranTime                         .00000     .00000     .00000     .00000       1070    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000       1070    
+posiciones.TotalTime                        12.312     (Corr)     .97711     50.974       1070    
+Material Request #kanban.Queue.WaitingTime  .87857     (Corr)     .00000     4.6214        562    
+Purchase order issued #kanban.Queue.Waitin  .74829     (Corr)     .00000     4.2171        562    
+Material Request #waterfall.Queue.WaitingT  4.7978E-04 4.0293E-04 .00000     .06851        509    
+Purchase order issued #waterfall.Queue.Wai  21.124     (Corr)     .00000     49.756        510    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              29.144     (Corr)     .00000     65.000     54.000    
+Buyer 1 wf.NumberBusy                       .99642     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .99642     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .50145     .01350     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .50145     .01350     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.6629     (Insuf)    .00000     2.0000     .00000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .83149     (Insuf)    .00000     1.0000     .00000    
+Material Request #kanban.Queue.NumberInQue  .98751     (Corr)     .00000     8.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .84108     (Corr)     .00000     8.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  4.8841E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  24.154     (Corr)     .00000     57.000     52.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       508  Infinite
+kanban                                          562  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1124.0    
+posiciones.NumberOut                        1070.0    
+Buyer 1 wf.NumberSeized                     510.00    
+Buyer 1 wf.ScheduledUtilization             .99642    
+Buyer 2 wf.NumberSeized                     509.00    
+Buyer 2 wf.ScheduledUtilization             .50145    
+Buyer kb.NumberSeized                       1124.0    
+Buyer kb.ScheduledUtilization               .83149    
+System.NumberOut                            1070.0    
+
+Beginning replication 26 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 26 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5015     .01227     .90467     2.0810        996    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        996    
+posiciones.WaitTime                         8.9124     (Corr)     .00000     39.804        996    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        996    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        996    
+posiciones.TotalTime                        10.413     (Corr)     1.0169     41.337        996    
+Material Request #kanban.Queue.WaitingTime  .89673     .23773     .00000     4.3327        517    
+Purchase order issued #kanban.Queue.Waitin  .76552     .22279     .00000     4.3942        518    
+Material Request #waterfall.Queue.WaitingT  1.8661E-04 3.9454E-04 .00000     .08939        479    
+Purchase order issued #waterfall.Queue.Wai  16.762     (Corr)     .00000     39.804        480    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              22.077     (Corr)     .00000     50.000     40.000    
+Buyer 1 wf.NumberBusy                       .97178     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .97178     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .48436     (Corr)     .00000     1.0000     .00000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .48436     (Corr)     .00000     1.0000     .00000    
+Buyer kb.NumberBusy                         1.5376     (Insuf)    .00000     2.0000     1.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .76883     (Insuf)    .00000     1.0000     .50000    
+Material Request #kanban.Queue.NumberInQue  .92722     .32497     .00000     8.0000     .00000    
+Purchase order issued #kanban.Queue.Number  .79308     .26795     .00000     7.0000     .00000    
+Material Request #waterfall.Queue.NumberIn  1.7878E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  17.362     (Corr)     .00000     40.000     38.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       479  Infinite
+kanban                                          517  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1036.0    
+posiciones.NumberOut                        996.00    
+Buyer 1 wf.NumberSeized                     480.00    
+Buyer 1 wf.ScheduledUtilization             .97178    
+Buyer 2 wf.NumberSeized                     479.00    
+Buyer 2 wf.ScheduledUtilization             .48436    
+Buyer kb.NumberSeized                       1035.0    
+Buyer kb.ScheduledUtilization               .76883    
+System.NumberOut                            996.00    
+
+Beginning replication 27 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 27 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.4959     .01540     .91382     2.1062       1045    
+posiciones.NVATime                          .00000     .00000     .00000     .00000       1045    
+posiciones.WaitTime                         16.831     (Corr)     .00000     44.965       1045    
+posiciones.TranTime                         .00000     .00000     .00000     .00000       1045    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000       1045    
+posiciones.TotalTime                        18.327     (Corr)     .91382     46.475       1045    
+Material Request #kanban.Queue.WaitingTime  1.7817     (Corr)     .00000     8.3561        549    
+Purchase order issued #kanban.Queue.Waitin  1.6354     (Corr)     .00000     8.4284        549    
+Material Request #waterfall.Queue.WaitingT  2.0973E-04 3.0552E-04 .00000     .06347        497    
+Purchase order issued #waterfall.Queue.Wai  31.640     (Corr)     .00000     44.965        498    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              40.957     (Corr)     .00000     68.000     53.000    
+Buyer 1 wf.NumberBusy                       .99231     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .99231     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .49768     .01227     .00000     1.0000     .00000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .49768     .01227     .00000     1.0000     .00000    
+Buyer kb.NumberBusy                         1.6400     (Insuf)    .00000     2.0000     1.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .82001     (Insuf)    .00000     1.0000     .50000    
+Material Request #kanban.Queue.NumberInQue  1.9563     (Corr)     .00000     11.000     .00000    
+Purchase order issued #kanban.Queue.Number  1.7957     (Corr)     .00000     11.000     .00000    
+Material Request #waterfall.Queue.NumberIn  2.0847E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  34.075     (Corr)     .00000     55.000     51.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       497  Infinite
+kanban                                          548  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1098.0    
+posiciones.NumberOut                        1045.0    
+Buyer 1 wf.NumberSeized                     498.00    
+Buyer 1 wf.ScheduledUtilization             .99231    
+Buyer 2 wf.NumberSeized                     497.00    
+Buyer 2 wf.ScheduledUtilization             .49768    
+Buyer kb.NumberSeized                       1098.0    
+Buyer kb.ScheduledUtilization               .82001    
+System.NumberOut                            1045.0    
+
+Beginning replication 28 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 28 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.4999     .01626     .89990     2.0653        898    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        898    
+posiciones.WaitTime                         3.5225     (Corr)     .00000     18.195        898    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        898    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        898    
+posiciones.TotalTime                        5.0225     (Corr)     .97455     19.992        898    
+Material Request #kanban.Queue.WaitingTime  .96348     (Corr)     .00000     7.6046        448    
+Purchase order issued #kanban.Queue.Waitin  .85823     (Corr)     .00000     7.6884        456    
+Material Request #waterfall.Queue.WaitingT  2.7964E-04 4.6304E-04 .00000     .10044        452    
+Purchase order issued #waterfall.Queue.Wai  5.2543     (Corr)     .00000     18.195        453    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              9.2390     (Corr)     .00000     42.000     22.000    
+Buyer 1 wf.NumberBusy                       .90360     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .90360     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .45812     (Corr)     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .45812     (Corr)     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.3550     .13669     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .67752     .06834     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .89435     (Insuf)    .00000     13.000     7.0000    
+Purchase order issued #kanban.Queue.Number  .80880     (Corr)     .00000     13.000     4.0000    
+Material Request #waterfall.Queue.NumberIn  2.5280E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  4.8188     (Corr)     .00000     19.000     7.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       451  Infinite
+kanban                                          447  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         920.00    
+posiciones.NumberOut                        898.00    
+Buyer 1 wf.NumberSeized                     453.00    
+Buyer 1 wf.ScheduledUtilization             .90360    
+Buyer 2 wf.NumberSeized                     452.00    
+Buyer 2 wf.ScheduledUtilization             .45812    
+Buyer kb.NumberSeized                       904.00    
+Buyer kb.ScheduledUtilization               .67752    
+System.NumberOut                            898.00    
+
+Beginning replication 29 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 29 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.5009     (Corr)     .90128     2.1592       1026    
+posiciones.NVATime                          .00000     .00000     .00000     .00000       1026    
+posiciones.WaitTime                         11.305     (Corr)     .00000     47.492       1026    
+posiciones.TranTime                         .00000     .00000     .00000     .00000       1026    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000       1026    
+posiciones.TotalTime                        12.806     (Corr)     .97062     49.213       1026    
+Material Request #kanban.Queue.WaitingTime  1.2430     (Corr)     .00000     4.8612        541    
+Purchase order issued #kanban.Queue.Waitin  1.0916     (Corr)     .00000     4.8336        544    
+Material Request #waterfall.Queue.WaitingT  1.9725E-04 2.3996E-04 .00000     .03953        486    
+Purchase order issued #waterfall.Queue.Wai  21.412     (Corr)     .00000     47.492        487    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              29.197     (Corr)     .00000     70.000     66.000    
+Buyer 1 wf.NumberBusy                       .97241     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .97241     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .47721     (Corr)     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .47721     (Corr)     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.6349     (Insuf)    .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .81746     (Insuf)    .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  1.3450     (Corr)     .00000     8.0000     1.0000    
+Purchase order issued #kanban.Queue.Number  1.1888     (Corr)     .00000     8.0000     2.0000    
+Material Request #waterfall.Queue.NumberIn  1.9173E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  23.578     (Corr)     .00000     60.000     59.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       485  Infinite
+kanban                                          541  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1092.0    
+posiciones.NumberOut                        1026.0    
+Buyer 1 wf.NumberSeized                     487.00    
+Buyer 1 wf.ScheduledUtilization             .97241    
+Buyer 2 wf.NumberSeized                     486.00    
+Buyer 2 wf.ScheduledUtilization             .47721    
+Buyer kb.NumberSeized                       1085.0    
+Buyer kb.ScheduledUtilization               .81746    
+System.NumberOut                            1026.0    
+
+Beginning replication 30 of 30
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 30 of 30
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 500.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+posiciones.VATime                           1.4973     .01769     .92786     2.0382        985    
+posiciones.NVATime                          .00000     .00000     .00000     .00000        985    
+posiciones.WaitTime                         9.3977     (Corr)     .00000     34.936        985    
+posiciones.TranTime                         .00000     .00000     .00000     .00000        985    
+posiciones.OtherTime                        .00000     .00000     .00000     .00000        985    
+posiciones.TotalTime                        10.895     (Corr)     .99018     36.550        985    
+Material Request #kanban.Queue.WaitingTime  .77377     .27608     .00000     4.3795        504    
+Purchase order issued #kanban.Queue.Waitin  .66757     .23874     .00000     4.0325        507    
+Material Request #waterfall.Queue.WaitingT  4.2848E-04 5.8286E-04 .00000     .12742        482    
+Purchase order issued #waterfall.Queue.Wai  17.781     (Corr)     .00000     34.936        483    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+posiciones.WIP                              22.263     (Corr)     .00000     47.000     33.000    
+Buyer 1 wf.NumberBusy                       .96622     (Insuf)    .00000     1.0000     1.0000    
+Buyer 1 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 1 wf.Utilization                      .96622     (Insuf)    .00000     1.0000     1.0000    
+Buyer 2 wf.NumberBusy                       .48208     .02074     .00000     1.0000     1.0000    
+Buyer 2 wf.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Buyer 2 wf.Utilization                      .48208     .02074     .00000     1.0000     1.0000    
+Buyer kb.NumberBusy                         1.5077     .10413     .00000     2.0000     2.0000    
+Buyer kb.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Buyer kb.Utilization                        .75389     .05207     .00000     1.0000     1.0000    
+Material Request #kanban.Queue.NumberInQue  .78025     (Insuf)    .00000     7.0000     1.0000    
+Purchase order issued #kanban.Queue.Number  .67851     .27113     .00000     7.0000     2.0000    
+Material Request #waterfall.Queue.NumberIn  4.1305E-04 (Insuf)    .00000     1.0000     .00000    
+Purchase order issued #waterfall.Queue.Num  17.848     (Corr)     .00000     35.000     26.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Waterfall                                       481  Infinite
+kanban                                          504  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+posiciones.NumberIn                         1018.0    
+posiciones.NumberOut                        985.00    
+Buyer 1 wf.NumberSeized                     483.00    
+Buyer 1 wf.ScheduledUtilization             .96622    
+Buyer 2 wf.NumberSeized                     482.00    
+Buyer 2 wf.ScheduledUtilization             .48208    
+Buyer kb.NumberSeized                       1011.0    
+Buyer kb.ScheduledUtilization               .75389    
+System.NumberOut                            985.00    
+
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                 Output Summary for 30 Replications
+
+Project: Comparativa colas                                           Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+posiciones.NumberIn                         1017.3     19.989     920.00     1124.0     30
+posiciones.NumberOut                        988.43     14.429     898.00     1070.0     30
+Buyer 1 wf.NumberSeized                     484.26     4.9483     453.00     510.00     30
+Buyer 1 wf.ScheduledUtilization             .96927     .00825     .90360     .99961     30
+Buyer 2 wf.NumberSeized                     483.26     4.9483     452.00     509.00     30
+Buyer 2 wf.ScheduledUtilization             .48302     .00491     .45310     .50488     30
+Buyer kb.NumberSeized                       1014.2     20.258     904.00     1124.0     30
+Buyer kb.ScheduledUtilization               .75968     .01465     .67752     .83388     30
+System.NumberOut                            988.43     14.429     898.00     1070.0     30
+
+Simulation run time: 0.63 minutes.
+Simulation run complete.
